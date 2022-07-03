@@ -8,6 +8,9 @@ namespace TestWindowsProject
 {
     class Class1
     {
+        /// <summary>
+        /// Testing
+        /// </summary>
         public Class1()
         { }
     }
