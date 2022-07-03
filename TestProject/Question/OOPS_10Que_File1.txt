@@ -1,0 +1,89 @@
+1. __________________ is a programming language that allows the programmer to use objects to accomplish his goals.
+a) Structured programming language
+b) Object-oriented programming language
+c) Top-down programming language
+d) Bottom-up programming language
+
+Answer: b
+Clarification: An object-oriented programming language is a language that allows the programmer to use objects to accomplish a program’s goal. Recall that an object is anything that can be seen, touched, or used. In other words, an object is nearly any thing. The objects used in an object-oriented program can take on many different forms.
+
+2. Each object used in a object oriented programming is created from _____________
+a) Class
+b) Object
+c) Instance
+d) User
+
+Answer: a
+Explanation: Every object used in an object-oriented program is created from a class, which is a pattern that the computer uses to create the object. Using object oriented programming (OOP) terminology; objects are instantiated (created) from a class.
+Consider:Y
+3. An object is the _____________ of the class.
+a) Instance
+b) Class
+c) Object
+d) User
+
+Answer: a
+Explanation: Using object oriented programming (OOP) terminology, objects are instantiated (created) from a class, and each object is referred to as an instance of the class. A button control, for example, is an instance of the Button class. The button is instantiated when you drag the Button tool from the toolbox to the form.
+
+4. A ______________ variable is the instance of the String class.
+a) Button
+b) String
+c) Character
+d) Array
+
+Answer: b
+Explanation: A String variable is an instance of the String class and is instantiated the first time you refer to the variable in code. Keep in mind that the class itself is not an object. Only an instance of a class is an object.
+
+5. ________________ are the characteristics that describe the object.
+a) Classes
+b) Attributes
+c) Objects
+d) Instances
+
+Answer: b
+Explanation: Every object has attributes, which are the characteristics that describe the object. Attributes are also called properties. Included in the attributes of buttons and text boxes are the Name and Text properties. List boxes have a Name property as well as a Sorted property.
+Consider:Y
+6. _______________ are operations that the object is capable of performing.
+a) Methods
+b) Events
+c) Instances
+d) Attributes
+
+Answer: a
+Explanation: An object’s behaviors include methods and events. Methods are the operations (actions) that the object is capable of performing. For example, a button can use its Focus method to send the focus to itself.
+
+7. ______________ are the actions to which an object can respond.
+a) Methods
+b) Events
+c) Instances
+d) Attributes
+
+Answer: b
+Explanation: An object’s behaviors include methods and events. Events are the actions to which an object can respond. A button’s Click event, for instance, allows it to respond to a mouse click.
+
+8. An object’s _______________ include methods and events.
+a) Attribute
+b) Behavior
+c) Instance
+d) Method
+
+Answer: b
+Explanation: An object’s behaviors include methods and events. Methods are the operations (actions) that the object is capable of performing. For example, a button can use its Focus method to send the focus to itself. Events are the actions to which an object can respond. A button’s Click event, for instance, allows it to respond to a mouse click.
+
+9. A class ______________ all the behavior and attributes of an object.
+a) Encapsulates
+b) Abstracts
+c) Inherits
+d) Instantiate
+
+Answer: a
+Explanation: A class contains—or, in OOP terms, it encapsulates—all of the attributes and behaviors of the object it instantiates. The term “encapsulate” means “to enclose in a capsule.” In the context of OOP, the “capsule” is a class.
+Consider:Y
+10. Objects are ____________ from a class.
+a) Instantiated
+b) Evaluated
+c) Printed
+d) Outdated
+
+Answer: a
+Explanation: Using object oriented programming (OOP) terminology, objects are instantiated (created) from a class, and each object is referred to as an instance of the class. A button control, for example, is an instance of the Button class. The button is instantiated when you drag the Button tool from the toolbox to the form. A String variable, on the other hand, is an instance of the String class and is instantiated the first time you refer to the variable in code.

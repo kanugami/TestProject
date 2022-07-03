@@ -1,0 +1,307 @@
+1)   When you create a "recipient" hidden field for a form, which of the following is the ONLY correct way to type the word "recipient?"
+a. Recipient
+b. <recipient></recipient>
+c. recipient
+d. RECIPIENT
+
+Answer: b
+
+
+
+
+3)   What can't layers do if you want to convert them to tables?
+
+a. Be close
+b. Contain a Color
+c. Be larger than the target table
+d. Overlap
+
+Answer: d
+
+
+
+
+4)   Which HTML tag is used to define an internal style sheet?
+
+a. <script>
+b. <css>
+c. <style>
+d. None of these
+
+Answer: c
+
+
+
+
+5)   Which HTML attribute is used to define inline styles?
+
+a. font
+b. class
+c. styles
+d. style
+
+Answer: d
+
+
+
+
+6)   Which is the correct CSS syntax?
+
+a. body:color=black
+b. {body;color:black}
+c. {body:color=black(body}
+d. body {color: black}
+
+Answer: d
+
+
+
+
+7)   Using _______ statement is how you test for a specific condition.
+
+a. Select
+b. If
+c. Switch
+d. For
+
+Answer: b
+
+
+9)   The _______ method of an Array object adds and/or removes elements from an array.
+
+a. Reverse
+b. Shift
+c. Slice
+d. Splice
+
+Answer: d
+
+
+
+
+10)   To set up the window to capture all Click events, we use which of the following statement?
+
+a. window.captureEvents(Event.CLICK);
+b. window.handleEvents (Event.CLICK);
+c. window.routeEvents(Event.CLICK );
+d. window.raiseEvents(Event.CLICK );
+
+Answer: a
+
+
+
+
+12)   Choose the correct HTML tag for the largest heading
+
+a. <h6>
+b. <heading>
+c. <head>
+d. <h1>
+
+Answer: d
+
+
+
+
+13)   What is the correct HTML tag for inserting a line break?
+
+a. <br />
+b. <break />
+c. <lb />
+d. <nbsp>
+
+Answer: a
+
+
+
+
+14)   Can a data cell contain images?
+
+a. Yes
+b. No
+
+
+
+Answer: a
+
+
+
+
+15)   How do I add scrolling text to my page?
+
+a. <scroll>
+b. <marquee>
+c. <ciruler>
+d. <tab>
+
+Answer: b
+
+
+
+
+16)   What is the preferred way for adding a background color in HTML?
+
+a. <body background="yellow">
+b. <background>yellow</background>
+c. <body style="background-color:yellow">    
+d. <background color="yellow">text<background>
+
+Answer: c  
+
+
+
+
+17)   What is the correct HTML for creating a hyperlink?
+
+a. <a name="">A</a>
+b. <a>B</a>
+c. <a href="http://www.example.com">example</a>
+d. <a url="http://www.example.com">example</a>     
+
+Answer: c
+
+
+
+
+18)   How can you create an e-mail link?
+
+a. <mail href="a@b">
+b. <mail>a@b</mail>
+c. <a href="a@b">
+d. <a href="mailto:a@b.com">
+
+Answer: d
+
+
+
+
+19)   How can you open a link in a new browser window?
+
+a. <a href="url" new>
+b. <a href="url" target="new">
+c. <a href="url" target="_blank">
+d. <a href="url" target="">
+
+Answer: c
+
+
+
+
+20)   Which of these tags are all <table> tags?
+
+a. <table><head><tfoot>
+b. <table><tr><td>
+c. <table><tr><tt>
+d. <thead><body><tr>
+
+Answer: b
+
+
+
+
+21)   Which of the following JavaScript cannot do?
+
+a. JavaScript can react to events
+b. JavaScript can manipulate HTML elements
+c. JavaScript can be use to validate data
+d. All of the Above
+
+Answer: d
+
+
+
+
+23)   Which is not a property of attribute Behaviour of <Marquee> tag?
+
+a. alternate
+b. blur
+c. scroll
+d. slide
+
+Answer: b
+
+
+
+
+24)   _________ keyword is used to declare variables in javascript.
+
+a. Var
+b. Dim
+c. String
+d. None of the above
+
+Answer: a
+
+
+
+
+25)   The attribute used to define a new namespace in HTML is .
+
+a. XMLNS
+b. XmlNameSpace
+c. Xmlns
+d. XmlNs
+
+Answer: c
+
+
+
+
+26)   The following is a web-page:
+
+	<html>
+		 <head> <title>JavaScript</title> </head>
+		  <body bgcolor=""#0000ff"">
+			  <script language=""JavaScript"">
+				   <!-- document.write(""<h1> hello world </h1>""); //-->
+			  </script>
+		 </body>
+	</html>
+
+	When the above web page is loaded into a browser, what will happen?
+
+a. The body of the web page will not contain any text
+b. The body of the web page will contain the text “hello world” as an H1 heading
+c. The background color of the web page will be green
+d. document.write("<h1> hello world </h1 >”); is a comment.
+
+Answer: a
+
+
+
+
+27)   The elements <DIV> and <SPAN> have the following characteristics
+
+a. Element <DIV> inherits properties defined for <SPAN> in a stylesheet
+b. Elements <SPAN> and <DIV> define content to be inline or block-level
+c. <DIV> and <SPAN> are used as alternatives for the element <P>
+d. <DIV> is used inside element <P>.
+
+Answer: b
+
+
+
+29)   When trying to access a URL, the following message is displayed on the browser:
+Server; Error 403.
+What could be the reason for the message?
+
+a. The requested HTML file is not available
+b. The path to the interpreter of the script file is invalid
+c. The first line of the output from the script is not a valid HTTP header
+d. The requested HTML file or CGI script has insufficient permission.
+
+Answer: d
+
+
+
+
+30)   The general definition of a(n) ____ is a set of linked documents with shared attributes, such as related topics, a similar design, or a shared purpose.
+
+a. index
+b. website
+c. Internet
+d. Homepage
+
+Answer: b
+
+

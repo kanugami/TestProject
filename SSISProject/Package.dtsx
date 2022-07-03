@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/8/2022 12:33:31 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="CON-IND-LPT80"
+  DTS:CreatorName="CONTISINDIA\Kanu.Gami"
+  DTS:DTSID="{8FBF415D-7D7D-4383-81EB-0F3C1685C740}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{116BE01F-E78C-44E0-A5B6-C2ABEEC42C1D}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

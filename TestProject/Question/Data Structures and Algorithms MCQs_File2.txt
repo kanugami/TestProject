@@ -1,0 +1,2169 @@
+TOP Data Structures and Algorithms MCQs & Answers Pdf
+Data Structures and Algorithms Multiple Choice Questions :-
+1. Which if the following is/are the levels of implementation of data structure
+
+A) Abstract level
+B) Application level
+C) Implementation level
+D) All of the above
+Answer: D
+2. A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called ……
+
+A) AVL tree
+B) Red-black tree
+C) Lemma tree
+D) None of the above
+Answer: A
+3. ……………….. level is where the model becomes compatible executable code
+
+A) Abstract level
+B) Application level
+C) Implementation level
+D) All of the above
+Answer: C
+
+4. Stack is also called as
+
+A) Last in first out
+B) First in last out
+C) Last in last out
+D) First in first out
+Answer: A
+Consider:Y
+5. Which of the following is true about the characteristics of abstract data types?
+
+i) It exports a type.
+
+ii) It exports a set of operations
+
+A) True, False
+B) False, True
+C) True, True
+D) False, False
+Answer: C
+6. …………… is not the component of data structure.
+
+A) Operations
+B) Storage Structures
+C) Algorithms
+D) None of above
+Answer: D
+7. Which of the following is not the part of ADT description?
+
+A) Data
+
+B) Operations
+
+C) Both of the above
+
+D) None of the above
+Answer: D
+8. Inserting an item into the stack when stack is not full is called …………. Operation and deletion of item form the stack, when stack is not empty is called ………..operation.
+
+A) push, pop
+
+B) pop, push
+
+C) insert, delete
+
+D) delete, insert
+Answer: A
+9. ……………. Is a pile in which items are added at one end and removed from the other.
+
+A) Stack
+
+B) Queue
+
+C) List
+
+D) None of the above
+Answer: B
+Consider:Y
+10. ………… is very useful in situation when data have to stored and then retrieved in reverse order.
+
+A) Stack
+
+B) Queue
+
+C) List
+
+D) Link list
+Answer: A
+Consider:Y
+11. Which data structure allows deleting data elements from and inserting at rear?
+
+A) Stacks
+
+B) Queues
+
+C) Dequeues
+
+D) Binary search tree
+Answer: B
+12. Which of the following data structure can’t store the non-homogeneous data elements?
+
+A) Arrays
+
+B) Records
+
+C) Pointers
+
+D) Stacks
+Answer: A
+Consider:Y
+13. A ……. is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out.
+
+A) Queue linked list
+
+B) Stacks linked list
+
+C) Both of them
+
+D) Neither of them
+Answer: A
+Consider:Y
+14. Which of the following is non-liner data structure?
+
+A) Stacks
+
+B) List
+
+C) Strings
+
+D) Trees
+Answer: D
+15. Herder node is used as sentinel in …..
+
+A) Graphs
+
+B) Stacks
+
+C) Binary tree
+
+D) Queues
+Answer: C
+16. Which data structure is used in breadth first search of a graph to hold nodes?
+
+A) Stack
+
+B) queue
+
+C) Tree
+
+D) Array
+Answer: B
+17. Identify the data structure which allows deletions at both ends of the list but insertion at only one end.
+
+A) Input restricted dequeue
+
+B) Output restricted qequeue
+
+C) Priority queues
+
+D) Stack
+Answer: A
+18. Which of the following data structure is non linear type?
+
+A) Strings
+
+B) Lists
+
+C) Stacks
+
+D) Graph
+Answer: D
+19. Which of the following data structure is linear type?
+
+A) Graph
+
+B) Trees
+
+C) Binary tree
+
+D) Stack
+Answer: D
+20. To represent hierarchical relationship between elements, Which data structure is suitable?
+
+A) Dequeue
+
+B) Priority
+
+C) Tree
+
+D) Graph
+Answer: C
+Consider:Y
+21. A directed graph is ………………. if there is a path from each vertex to every other vertex in the digraph.
+
+A) Weakly connected
+
+B) Strongly Connected
+
+C) Tightly Connected
+
+D) Linearly Connected
+Answer: B
+22. In the …………….. traversal we process all of a vertex’s descendants before we move to an adjacent vertex.
+
+A) Depth First
+
+B) Breadth First
+
+C) With First
+
+D) Depth Limited
+Answer: A
+23. State True of False.
+
+i) Network is a graph that has weights or costs associated with it.
+
+ii) An undirected graph which contains no cycles is called a forest.
+
+iii) A graph is said to be complete if there is no edge between every pair of vertices.
+
+A) True, False, True
+
+B) True, True, False
+
+C) True, True, True
+
+D) False, True, True
+Answer: B
+24. Match the following.
+	a) Completeness					i) How long does it take to find a solution
+	b) Time Complexity				ii) How much memory need to perform the search.
+	c) Space Complexity				iii) Is the strategy guaranteed to find the solution when there in one.
+	
+A) a-iii, b-ii, c-i
+
+B) a-i, b-ii, c-iii
+
+C) a-iii, b-i, c-ii
+
+D) a-i, b-iii, c-ii
+Answer: C
+25. The number of comparisons done by sequential search is ………………
+
+A) (N/2)+1
+
+B) (N+1)/2
+
+C) (N-1)/2
+
+D) (N+2)/2
+Answer: B
+26. In ……………, search start at the beginning of the list and check every element in the list.
+
+A) Linear search
+
+B) Binary search
+
+C) Hash Search
+
+D) Binary Tree search
+Answer: A
+27. State True or False.
+
+i) Binary search is used for searching in a sorted array.
+
+ii) The time complexity of binary search is O(logn).
+
+A) True, False
+
+B) False, True
+
+C) False, False
+
+D) True, True
+Answer: D
+28. Which of the following is not the internal sort?
+
+A) Insertion Sort
+
+B) Bubble Sort
+
+C) Merge Sort
+
+D) Heap Sort
+Answer: C
+29. State True or False.
+
+i) An undirected graph which contains no cycles is called forest.
+
+ii) A graph is said to be complete if there is an edge between every pair of vertices.
+
+A) True, True
+
+B) False, True
+
+C) False, False
+
+D) True, False
+Answer: A
+30. A graph is said to be ……………… if the vertices can be split into two sets V1 and V2 such there are no edges between two vertices of V1 or two vertices of V2.
+
+A) Partite
+
+B) Bipartite
+
+C) Rooted
+
+D) Bisects
+Answer: B
+31. In a queue, the initial values of front pointer f rare pointer r should be …….. and ……….. respectively.
+
+A) 0 and 1
+
+B) 0 and -1
+
+C) -1 and 0
+
+D) 1 and 0
+Answer: B
+32. In a circular queue the value of r will be ..
+
+A) r=r+1
+
+B) r=(r+1)% [QUEUE_SIZE – 1]
+
+C) r=(r+1)% QUEUE_SIZE
+
+D) r=(r-1)% QUEUE_SIZE
+Answer: C
+33. Which of the following statement is true?
+
+i) Using singly linked lists and circular list, it is not possible to traverse the list backwards.
+
+ii) To find the predecessor, it is required to traverse the list from the first node in case of singly linked list.
+
+A) i-only
+
+B) ii-only
+
+C) Both i and ii
+
+D) None of both
+Answer: C
+34. The advantage of …………….. is that they solve the problem if sequential storage representation. But disadvantage in that is they are sequential lists.
+
+A) Lists
+
+B) Linked Lists
+
+C) Trees
+
+D) Queues
+Answer: B
+35. What will be the value of top, if there is a size of stack STACK_SIZE is 5
+
+A) 5
+
+B) 6
+
+C) 4
+
+D) None
+Answer: C
+36. ………… is not the operation that can be performed on queue.
+
+A) Insertion
+
+B) Deletion
+
+C) Retrieval
+
+D) Traversal
+Answer: D
+37. There is an extra element at the head of the list called a ……….
+
+A) Antinel
+
+B) Sentinel
+
+C) List header
+
+D) List head
+Answer: B
+38. A graph is a collection of nodes, called ………. And line segments called arcs or ……….. that connect pair of nodes.
+
+A) vertices, edges
+
+B) edges, vertices
+
+C) vertices, paths
+
+D) graph node, edges
+Answer: A
+39. A ……….. is a graph that has weights of costs associated with its edges.
+
+A) Network
+
+B) Weighted graph
+
+C) Both A and B
+
+D) None A and B
+Answer: C
+40. In general, the binary search method needs no more than ……………. comparisons.
+
+A) [log2n]-1
+
+B) [logn]+1
+
+C) [log2n]
+
+D) [log2n]+1
+Answer: D
+41. Which of the following is not the type of queue?
+
+A) Ordinary queue
+
+B) Single ended queue
+
+C) Circular queue
+
+D) Priority queue
+Answer: B
+42. The property of binary tree is
+
+A) The first subset is called left subtree
+
+B) The second subtree is called right subtree
+
+C) The root cannot contain NULL
+
+D) The right subtree can be empty
+Answer: D
+43. State true or false.
+
+i) The degree of root node is always zero.
+
+ii) Nodes that are not root and not leaf are called as internal nodes.
+
+A) True, True
+
+B) True, False
+
+C) False, True
+
+D) False, False
+Answer: C
+44. Any node is the path from the root to the node is called
+
+A) Successor node
+
+B) Ancestor node
+
+C) Internal node
+
+D) None of the above
+Answer: B
+45. State true of false.
+
+i) A node is a parent if it has successor nodes.
+
+ii) A node is child node if out degree is one.
+
+A) True, True
+
+B) True, False
+
+C) False, True
+
+D) False, False
+Answer: B
+46. ………………. is not an operation performed on linear list
+
+a) Insertion b) Deletion c) Retrieval d) Traversal
+
+A) only a,b and c
+
+B) only a and b
+
+C) All of the above
+
+D) None of the above
+Answer: D
+47. Which is/are the application(s) of stack
+
+A) Function calls
+
+B) Large number Arithmetic
+
+C) Evaluation of arithmetic expressions
+
+D) All of the above
+Answer: D
+48. A …………… is an acyclic digraph, which has only one node with indegree 0, and other nodes have in-degree 1.
+
+A) Directed tree
+
+B) Undirected tree
+
+C) Dis-joint tree
+
+D) Direction oriented tree
+Answer: A
+49. …………………. Is a directed tree in which outdegree of each node is less than or equal to two.
+
+A) Unary tree
+
+B) Binary tree
+
+C) Trinary tree
+
+D) Both B and C
+Answer: B
+50. State true or false.
+
+i) An empty tree is also a binary tree.
+
+ii) In strictly binary tree, the out-degree of every node is either o or 2.
+
+A) True, False
+
+B) False, True
+
+C) True, True
+
+D) False, False
+Answer: C
+51. Which of the following data structures are indexed structures?
+
+A. Linear arrays
+
+B. Linked lists
+
+C. Queue
+
+D. Stack
+Answer: A
+52. Which of the following data structure store the homogeneous data elements?
+
+A. Arrays
+
+B. Records
+
+C. Pointers
+
+D. Lists
+Answer: B
+53. When new data are to be inserted into a data structure, but there is not available space; this situation is usually called ….
+
+A. Underflow
+
+B. overflow
+
+C. houseful
+
+D. saturated
+Answer: B
+Consider:Y
+54. A data structure where elements can be added or removed at either end but not in the middle is called …
+
+A. linked lists
+
+B. stacks
+
+C. queues
+
+D. dequeue
+Answer: D
+55. Operations on a data structure may be …..
+
+A. creation
+
+B. destruction
+
+C. selection
+
+D. all of the above
+Answer: D
+56. The way in which the data item or items are logically related defines …..
+
+A. storage structure
+
+B. data structure
+
+C. data relationship
+
+D. data operation
+Answer: B
+57. Which of the following are the operations applicable an primitive data structures?
+
+A. create
+
+B. destroy
+
+C. update
+
+D. all of the above
+Answer: D
+58. The use of pointers to refer elements of a data structure in which elements are logically adjacent is ….
+
+A. pointers
+
+B. linked allocation
+
+C. stack
+
+D. queue
+Answer: B
+59. Arrays are best data structures
+
+A. for relatively permanent collections of data
+
+B. for the size of the structure and the data in the structure are constantly changing
+
+C. for both of above situation
+
+D. for non of above situation
+Answer: A
+60. Which of the following statement is false?
+
+A. Arrays are dense lists and static data structure.
+
+B. Data elements in linked list need not be stored in adjacent space in memory
+
+C. Pointers store the next data element of a list.
+
+D. Linked lists are collection of the nodes that contain information part and next pointer.
+
+Answer: C
+
+61. Which of the following data structure is non-linear type?
+
+A) Strings
+
+B) Lists
+
+C) Stacks
+
+D) Tree
+Answer: D
+62. Which of the following data structure is linear type?
+
+A) Array
+
+B) Tree
+
+C) Graphs
+
+D) Hierarchy
+Answer: A
+63. The logical or mathematical model of a particular organization of data is called a ………
+
+A) Data structure
+
+B) Data arrangement
+
+C) Data configuration
+
+D) Data formation
+Answer: A
+Consider:Y
+64. The simplest type of data structure is ………………
+
+A) Multidimensional array
+
+B) Linear array
+
+C) Two dimensional array
+
+D) Three dimensional array
+Answer: B
+65. Linear arrays are also called ……………….
+
+A) Straight line array
+
+B) One-dimensional array
+
+C) Vertical array
+
+D) Horizontal array
+Answer: B
+66. Arrays are best data structures …………
+
+A) For relatively permanent collections of data.
+
+B) For the size of the structure and the data in the structure are constantly changing
+
+C) For both of above situation
+
+D) For none of the above
+Answer: A
+Consider:Y
+67. Which of the following data structures are indexed structures?
+
+A) Linear arrays
+
+B) Linked lists
+
+C) Graphs
+
+D) Trees
+Answer: A
+68. Each node in a linked list has two pairs of ………….. and ……………….
+
+A) Link field and information field
+
+B) Link field and avail field
+
+C) Avail field and information field
+
+D) Address field and link field
+Answer: A
+69. A …………………… does not keep track of address of every element in the list.
+
+A) Stack
+
+B) String
+
+C) Linear array
+
+D) Queue
+Answer: C
+70. When does top value of the stack changes?
+
+A) Before deletion
+
+B) While checking underflow
+
+C) At the time of deletion
+
+D) After deletion
+Answer: D
+Consider:Y
+71. Which of the following data structure is non-linear type?
+
+A) Strings
+
+B) Lists
+
+C) Stacks
+
+D) Tree
+Answer: D
+72. Which of the following data structure is linear type?
+
+A) Array
+
+B) Tree
+
+C) Graphs
+
+D) Hierarchy
+Answer: A
+73. The logical or mathematical model of a particular organization of data is called a ………
+
+A) Data structure
+
+B) Data arrangement
+
+C) Data configuration
+
+D) Data formation
+Answer: A
+74. The simplest type of data structure is ………………
+
+A) Multidimensional array
+
+B) Linear array
+
+C) Two dimensional array
+
+D) Three dimensional array
+Answer: B
+75. Linear arrays are also called ……………….
+
+A) Straight line array
+
+B) One-dimensional array
+
+C) Vertical array
+
+D) Horizontal array
+Answer: B
+76. Arrays are best data structures …………
+
+A) For relatively permanent collections of data.
+
+B) For the size of the structure and the data in the structure are constantly changing
+
+C) For both of above situation
+
+D) For none of the above
+Answer: A
+77. Which of the following data structures are indexed structures?
+
+A) Linear arrays
+
+B) Linked lists
+
+C) Graphs
+
+D) Trees
+Answer: A
+78. Each node in a linked list has two pairs of ………….. and ……………….
+
+A) Link field and information field
+
+B) Link field and avail field
+
+C) Avail field and information field
+
+D) Address field and link field
+Answer: A
+79. A …………………… does not keep track of address of every element in the list.
+
+A) Stack
+
+B) String
+
+C) Linear array
+
+D) Queue
+Answer: C
+80. When does top value of the stack changes?
+
+A) Before deletion
+
+B) While checking underflow
+
+C) At the time of deletion
+
+D) After deletion
+Answer: D
+
+91. Arrays are best data structures
+
+A) for relatively permanent collections of data
+
+B) for the size of the structure and the data in the structure are constantly changing
+
+C) for both of above situation
+
+D) for none of above situation
+Answer: A
+92. Which of the following data structure is not linear data structure?
+
+A) Arrays
+
+B) Linked lists
+
+C) Both of the above
+
+D) None of the above
+Answer: D
+93. The disadvantage in using a circular linked list is …………………….
+
+A) It is possible to get into infinite loop.
+
+B) Last node points to first node.
+
+C) Time consuming
+
+D) Requires more memory space
+Answer: A
+94. A linear list in which each node has pointers to point to the predecessor and successors nodes is called as ..
+
+A) Singly Linked List
+
+B) Circular Linked List
+
+C) Doubly Linked List
+
+D) Linear Linked List
+Answer: C
+95. A ……………….. is a linear list in which insertions and deletions are made to from either end of the structure.
+
+A) circular queue
+
+B) random of queue
+
+C) priority
+
+D) dequeue
+Answer: D
+96. In a priority queue, insertion and deletion takes place at ………………
+
+A) front, rear end
+
+B) only at rear end
+
+C) only at front end
+
+D) any position
+Answer: D
+97. The time complexity of quick sort is …………..
+
+A) O(n)
+
+B) O(n2)
+
+C) O(n log n)
+
+D) O(log n)
+Answer: C
+98. Which of the following is an application of stack?
+
+A) finding factorial
+
+B) tower of Hanoi
+
+C) infix to postfix conversion
+
+D) all of the above
+Answer: D
+99. The data structure which is one ended is ………………
+
+A) queue
+
+B) stack
+
+C) tree
+
+D) graph
+Answer: B
+100. A list which displays the relationship of adjacency between elements is said to be
+
+A) linear
+
+B) non linear
+
+C) linked list
+
+D) trees
+Answer: A
+101. Program with highest run-time complexity is ………………..
+A.  Tower of Hanoi
+B.  Fibonacci Series
+C.  Prime Number Series
+D.  None of these
+Answer: A
+Consider:Y
+102. The number of unused pointers in a complete binary tree of depth 5 is:
+A.  4
+B.  8
+C.  16
+D.  32
+Answer: C
+
+103. Linear search is highly inefficient compared to binary search when dealing with:
+A.  Small, unsorted arrays
+B.  Small, sorted arrays
+C.  Large, unsorted arrays
+D.  Large, sorted arrays
+Answer: D
+Consider:Y
+104. The running time for creating a heap of size n is ………….
+A.  O(n)
+B.  O(log n)
+C.  O(n log n)
+D.  O(n2)
+Answer: C
+
+105. The extra key inserted at the end of the array is called a ……………
+A.  End Key
+B.  Stop Key
+C.  Sentinel
+D.  Transposition
+Answer: C
+
+106. Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?
+A.  Deleting a node whose location is given
+B.  Searching of an unsorted list for a given item
+C.  Inserting a new node after node whose location is given
+D.  Traversing the list to process each node
+Answer: A
+
+107. Using square brackets ([]) to retrieve vector elements ………….. perform bounds checking; using member function at to retrieve vector elements ……………. perform bounds checking.
+A.  Does not, does not
+B.  Does not, does
+C.  Does, does not
+D.  Does, does
+Answer: B
+
+108. One can determine whether a Binary tree is a Binary Search Tree by traversing it in …………….
+A.  Pre-order
+B.  In-order
+C.  Post-order
+D.  Any of these
+Answer: B
+
+109. The spanning tree of connected graph with 10 vertices contains …………..
+A.  9 edges
+B.  11 edges
+C.  10 edges
+D.  9 vertices
+Answer: A
+
+110. What data structure is used for breadth first traversal of a graph?
+A.  Queue
+B.  Stack
+C.  List
+D.  None of these
+Answer: A
+
+111. A sorted file contains 16 items. Using binary search, the maximum number of comparisons to search for an item in this file is ………..
+A.  15
+B.  8
+C.  1
+D.  4
+Answer: D
+Consider:Y
+
+112. Which of the following is not possible with an array in C programming language?
+A.  Declaration
+B.  Definition
+C.  Dynamic Allocation
+D.  Array of strings
+Answer: C
+
+113. One can determine whether an infix expression has balanced parenthesis or not by using ………….
+A.  Array
+B.  Queue
+C.  Stack
+D.  Tree
+Answer: C
+
+114. An adaptive sorting algorithm …………..
+A.  adapts to new computers
+B.  takes advantage of already sorted elements
+C.  takes input which is already sorted
+D.  None of these
+Answer: B
+
+115. The average number of key comparisons done in successful sequential search in a list of length n is …………..
+A.  log n
+B.  (n-1)/2
+C.  n/2
+D.  (n+1)/2
+Answer: D
+Consider:Y
+116. What are the time complexities of finding 8th element from beginning and 8th element from end in a singly linked list? Let n be the number of nodes in linked list, you may assume that n>8.
+A.  O(n) and O(n)
+B.  O(1) and O(1)
+C.  O(n) and O(1)
+D.  O(1) and O(n)
+Answer: D
+
+117. Recursion is memory-intensive because:
+A.  Recursive functions tend to declare many local variables.
+B.  Previous function calls are still open when the function calls itself and the activation records of these previous calls still occupy space on the call stack.
+C.  Many copies of the function code are created.
+D.  It requires large data values.
+Answer: B
+Consider:Y
+118. The maximum number of nodes in a binary tree of depth 5 is ……………
+A.  31
+B.  16
+C.  32
+D.  15
+Answer: A
+
+119. Travelling salesman problem is an example of ……………….
+A.  Dynamic Algorithm
+B.  Greedy Algorithm
+C.  Recursive Approach
+D.  Divide & Conquer
+Answer: B
+Consider:Y
+
+120. In a min-heap:
+A.  parent nodes have values greater than or equal to their Childs
+B.  parent nodes have values less than or equal to their Childs
+C.  both statements are true
+D.  both statements are wrong
+Answer: A
+
+121. n elements of a Queue are to be reversed using another queue. The number of “ADD” and “REMOVE” operations required to do so is:
+A.  2*n
+B.  4*n
+C.  n
+D.  The task cannot be accomplished
+Answer: D
+
+122. A complete binary tree with n leaf nodes has …………..
+A.  n+1 nodes
+B.  2n-1 nodes
+C.  2n+1 nodes
+D.  n(n-1)/2 nodes
+Answer: B
+Consider:Y
+123. A binary tree can be converted in to its mirror image by traversing it in …………..
+A.  In-order
+B.  Pre-order
+C.  Post-order
+D.  Any order
+Answer: B
+
+124. The time required to delete a node x from a doubly linked list having n nodes is ………….
+A.  O(n)
+B.  O(log n)
+C.  O(1)
+D.  O(n log n)
+Answer: C
+
+125. In doubly linked lists:
+A.  a pointer is maintained to store both next and previous nodes.
+B.  two pointers are maintained to store next and previous nodes.
+C.  a pointer to self is maintained for each node.
+D.  none of these
+Answer: B
+
+126. One can convert an infix expression to a postfix expression using a …………..
+A.  Stack
+B.  Queue
+C.  Deque
+D.  None of these
+Answer: A
+
+127. Which one of the below mentioned is linear data structure?
+A.  Queue
+B.  Stack
+C.  Arrays
+D.  All of these
+Answer: D
+Consider:Y
+128. Which of the following types of expressions do not require precedence rules for evaluation?
+A.  fully parenthesised infix expression
+B.  postfix expression
+C.  partially parenthesised infix expression
+D.  more than one of the above
+Answer: A
+Consider:Y
+
+129. Overflow condition in linked list may occur when attempting to ………….
+A.  Create a node when free space pool is empty.
+B.  Traverse the nodes when free space pool is empty.
+C.  Create a node when linked list is empty.
+D.  None of these.
+Answer: A
+
+130. Linked lists are not suitable data structures for which one of the following problems?
+A.  Insertion sort
+B.  Binary search
+C.  Radix sort
+D.  Polynomial manipulation
+Answer: B
+
+131. The sorting technique where array to be sorted is partitioned again and again in such a way that all elements less than or equal to partitioning element appear before it and those which are greater appear after it, is called …………..
+A.  Merge sort
+B.  Quick sort
+C.  Selection sort
+D.  None of these
+Answer: B
+Consider:Y
+132. Which of the following asymptotic notation is the worst among all?
+A.  Ο(n+9378)
+B.  Ο(n3)
+C.  nΟ(1)
+D.  2Ο(n)
+Answer: D
+
+133. What value does function mystery return when called with a value of 4?
+		int mystery ( int number )
+		{
+		if ( number <= 1 )
+		return 1;
+		else
+		return number * mystery( number – 1 );
+		}
+A.  0
+B.  1
+C.  4
+D.  24
+Answer: D
+Consider:Y
+134. Which of the following uses memorization?
+A.  Greedy approach
+B.  Divide and conquer approach
+C.  Dynamic programming approach
+D.  None of the above
+Answer: C
+
+135. For an undirected graph G with n vertices and e edges, the sum of the degrees of each vertex is ……..
+A.  ne
+B.  2n
+C.  2e
+D.  en
+Answer: C
+
+136. The search technique for searching a sorted file that requires increased amount of space is …………….
+A.  Indexed sequential search
+B.  Interpolation search
+C.  Sequential search
+D.  Tree search
+Answer: A
+Explanation:
+The search technique for searching a sorted file that requires increased amount of space is indexed sequential search. Because in this search technique we need to maintain a separate index file which requires additional storage space.
+Consider:Y
+
+137. The postfix form of A ^ B * C – D + E/ F/ (G + H),
+A.  AB^C*D-EF/GH+/+
+B.  AB^CD-EP/GH+/+*
+C.  ABCDEFGH+//+-*^
+D.  AB^D +EFGH +//*+
+Answer: A
+
+138. If locality is a concern, you can use ……………. to traverse the graph.
+A.  Breadth First Search
+B.  Depth First Search
+C.  Either BFS or DFS
+D.  None of these
+Answer: B
+
+139. The prefix of (A+B)*(C-D)/E*F is:
+A.  /+-AB*CD
+B.  /*+-ABCD*EF
+C.  */*+AB-CDEF
+D.  **AB+CD/EF
+Answer: C
+Explanation:
+Prefix of (A+B) * (C – D) / E*F
+(+AB) * (-CD) / E*F
+*+AB-CD E*F
+*/*+AB-CDEF
+
+140. Which of the following is a difference between vectors and arrays?
+A.  Access to any element using the [] operator.
+B.  Stored in contiguous blocks of memory.
+C.  The ability to change size dynamically.
+D.  Efficient direct access to any element.
+Answer: C
+
+141. A sorting technique which uses the binary tree concept such that label of any node is larger than all the labels in the subtrees, is called …………….
+A.  Selection sort
+B.  Insertion sort
+C.  Heap sort
+D.  Quick sort
+Answer: C
+Explanation: A Sorting technique which uses the binary tree concept such that label of any node is larger than all the, labels in the sub trees, is called Heap sort because heap sort works on a complete binary tree with the property that the value at any node ‘N’ of the tree should be greater than or equal to the value at all its children nodes.
+
+142. A balance factor in AVL tree is used to check ………………
+A.  what rotation to make.
+B.  if all child nodes are at same level.
+C.  when the last rotation occurred.
+D.  if the tree is unbalanced.
+Answer: D
+
+143. A full binary tree with ‘n’ non-leaf nodes contains …………..
+A.  log2 n nodes
+B.  n+1 nodes
+C.  2n nodes
+D.  2n+l nodes
+Answer: D
+Consider:Y
+144. A graph ‘G’ with ‘n’ nodes is bipartite if it contains ………….
+A.  n edges
+B.  a cycle of odd length
+C.  no cycle of odd length
+D.  n2 edges
+Answer: C
+
+145. Recursive procedures are implemented by using ……………….. data structure.
+A.  queues
+B.  stacks
+C.  linked lists
+D.  strings
+Answer: B
+Explanation:
+Recursive procedures are implemented by using stacks because stacks are LIFO data structure and we need this feature to store return addresses of various recursive calls in recursive procedures.
+Consider:Y
+146. Which one of the below is not divide and conquer approach?
+A.  Insertion Sort
+B.  Merge Sort
+C.  Shell Sort
+D.  Heap Sort
+Answer: B
+
+147. Which of the following is not a sequence container provided by the STL?
+A.  vector
+B.  array
+C.  list
+D.  deque
+Answer: B
+
+148. Quick sort algorithm is an example of ………….
+A.  Greedy approach
+B.  Improved binary search
+C.  Dynamic Programming
+D.  Divide and conquer
+Answer: D
+
+149. In …………., the difference between the height of the left sub tree and height of the right tree, for each node, is almost one.
+A.  Binary search tree
+B.  AVL – tree
+C.  Complete tree
+D.  Threaded binary tree
+Answer: B
+
+150. In C programming, when we remove an item from bottom of the stack, then:
+A.  The stack will fall down.
+B.  Stack will rearrange items.
+C.  It will convert to LIFO
+D.  This operation is not allowed.
+Answer: D
+
+151. If h is any hashing function and is used to hash n keys in to a table of size m, where n<=m, the expected number of collisions involving a particular key x is :
+A.  less than 1
+B.  less than n
+C.  less than m
+D.  less than n/2
+Answer: A
+
+152. The worst case of quick sort has order …………..
+A.  O(n2)
+B.  O(n)
+C.  O (n log2 n)
+D.  O (log2 n)
+Answer: A
+
+153. Let A be an adjacency matrix of a graph G. The ijth entry in the matrix AK , gives
+A.  The number of paths of length K from vertex Vi to vertex Vj.
+
+B.  Shortest path of K edges from vertex Vi to vertex Vj.
+
+C.  Length of a Eulerian path from vertex Vi to vertex Vj.
+D.  Length of a Hamiltonian cycle from vertex Vi to vertex Vj.
+Answer: B
+
+154. The OS of a computer may periodically collect all the free memory space to form contiguous block of free space. This is called:
+A.  Concatenation
+B.  Garbage collection
+C.  Collision
+D.  Dynamic Memory Allocation
+Answer: B
+Consider:Y
+155. What is the following code segment doing?
+		void fn( ){
+		char c;
+		cin.getC. ;
+		if (c != ‘\n’) {
+		fn( );
+		cout.putC. ;
+		}
+		}
+A.  The string entered is printed as it is.
+B.  The string entered is printed in reverse order.
+C.  It will go in an infinite loop.
+D.  It will print an empty line.
+Answer: B
+
+156. You have to sort a list L consisting of a sorted list followed by a few “random” elements.
+Which of the following sorting methods would be especially suitable for such a task?
+A.  Bubble sort
+B.  Selection sort
+C.  Quick sort
+D.  Insertion sort
+Answer: D
+
+157. B Trees are generally
+A.  very deep and narrow
+B.  very wide and shallow
+C.  very deep and very wide
+D.  cannot say
+Answer: D
+
+158. Linked list search complexity is ……………
+A.  Ο(1)
+B.  Ο(n)
+C.  Ο(log n)
+D.  Ο(log log n)
+Answer: B
+
+159. If the data collection is in sorted form and equally distributed then the run time complexity of interpolation search is …………
+A.  Ο(n)
+B.  Ο(1)
+C.  Ο(log n)
+D.  Ο(log (log n))
+Answer: D
+
+160. A technique for direct search is …………
+A.  Binary Search
+B.  Linear Search
+C.  Tree Search
+D.  Hashing
+Answer: D
+
+161. If a node having two children is deleted from a binary tree, it is replaced by its ………..
+A.  In-order predecessor
+B.  In-order successor
+C.  Pre-order predecessor
+D.  None of these
+Answer: B
+
+162. In a min heap:
+A.  minimum values are stored.
+B.  child nodes have less value than parent nodes.
+C.  parent nodes have less value than child nodes.
+D.  maximum value is contained by the root node.
+Answer: C
+
+163. The searching technique that takes O(1) time to find a data is
+A.  Linear Search
+B.  Binary Search
+C.  Hashing
+D.  Tree Search
+Answer: C
+
+164. Select the incorrect statement. Binary search trees (regardless of the order in which the values are inserted into the tree):
+A.  Always have multiple links per node.
+B.  Can be sorted efficiently.
+C.  Always have the same shape for a particular set of data.
+D.  Are nonlinear data structures.
+Answer: C
+
+165. A mathematical-model with a collection of operations defined on that model is called:
+A.  Data Structure
+B.  Abstract Data Type
+C.  Primitive Data Type
+D.  Algorithm
+Answer: B
+Consider:Y
+166. The number of interchanges required to sort 5, 1, 6, 2, 4 in ascending order using Bubble Sort is
+A.  6
+B.  5
+C.  7
+D.  8
+Answer: B
+Consider:Y
+167. The postfix form of the expression (A+ B)*(C*D− E)*F / G is:
+A.  AB+ CD*E − FG /**
+B.  AB + CD* E − F **G /
+C.  AB + CD* E − *F *G /
+D.  AB + CDE * − * F *G /
+Answer: A
+
+168. The complexity of multiplying two matrices of order m*n and n*p is …………….
+A.  mnp
+B.  mp
+C.  mn
+D.  np
+Answer: A
+
+169. Merging 4 sorted files containing 50, 10, 25 and 15 records will take ………… time
+A.  O(100)
+B.  O(200)
+C.  O(175)
+D.  O(125)
+Answer: A
+
+170. For an undirected graph with n vertices and e edges, the sum of the degree of each vertex is equal to:
+A.  2n
+B.  (2n-1)/2
+C.  2e
+D.  e2/2
+Answer: C
+
+171. Project scheduling is an example of …………….
+A.  Greedy programming
+B.  Dynamic programming
+C.  Divide and conquer
+D.  None of the above.
+Answer: B
+
+172. Minimum number of queues required for priority queue implementation?
+A.  5
+B.  4
+C.  3
+D.  2
+Answer: D
+
+173. From a complete graph, by removing maximum ……………. edges, we can construct a spanning tree.
+A.  e-n+1
+B.  n-e+1
+C.  n+e-1
+D.  e-n-1
+Answer: A
+
+174. Which of these algorithmic approaches tries to achieve localized optimum solution?
+A.  Greedy approach
+B.  Divide and conquer approach
+C.  Dynamic approach
+D.  All of the above
+Answer: A
+
+175. In worst case Quick Sort has order …………..
+A.  O(n log n)
+B.  O(n2/2)
+C.  O(log n)
+D.  O(n2/4)
+Answer: B
+
+176. To partition unsorted list a pivot element is used in ……………
+A.  Merge Sort
+B.  Quick Sort
+C.  Insertion Sort
+D.  Selection Sort
+Answer: B
+
+177. What is the worst case time complexity of linear search algorithm?
+A.  Ο(1)
+B.  Ο(n)
+C.  Ο(log n)
+D.  Ο(n2)
+Answer: D
+Explanation:
+Linear search scans sequentially to find the target value. The best case is Ο(1) and average and worst case is Ο(n). Worst case is when data is not in the list, and it has to scan all n elements.
+
+178. A full binary tree with 2n+1 nodes contain …………….
+A.  n leaf nodes
+B.  n non-leaf nodes
+C.  n-1 leaf nodes
+D.  n-1 non-leaf nodes
+Answer: B
+
+179. Which of the following statements about stacks is incorrect?
+A.  Stacks can be implemented using linked lists.
+B.  Stacks are first-in, first-out (FIFO) data structures.
+C.  New nodes can only be added to the top of the stack.
+
+D.  The last node (at the bottom) of a stack has a null (0) link.
+Answer: B
+Consider:Y
+180. If a node in a BST has two children, then its in-order predecessor has ………….
+A.  no left child
+B.  no right child
+C.  two children
+D.  no child
+Answer: B
+
+181. The worst case complexity of binary search matches with ……………
+A.  interpolation search
+B.  linear search
+C.  merge sort
+D.  none of the above
+Answer: B
+
+182. A binary tree in which if all its levels except possibly the last, have the maximum number of nodes and all the nodes at the last level appear as far left as possible, is known as
+A.  full binary tree
+B.  AVL tree
+C.  threaded tree
+D.  complete binary tree
+Answer: A
+
+183. A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as a ……………..
+A.  Queue
+B.  Stack
+C.  Tree
+D.  Linked list
+Answer: A
+Consider:Y
+184. What is the postfix form of the following prefix expression -A/B*C$DE ?
+A.  ABCDE$*/-
+B.  A-BCDE$*/-
+C.  ABC$ED*/-
+D.  A-BCDE$*/
+Answer: A
+
+185. The following formula will produce:
+Fn = Fn-1 + Fn-2
+A.  Armstrong Number
+B.  Fibonacci Series
+C.  Euler Number
+D.  Prime Number
+Answer: B
+
+186. All possible spanning trees of graph G:
+A.  have same number of edges and vertices.
+B.  have same number of edges and but not vertices.
+C.  have same number of vertices but not edges.
+D.  depends upon algorithm being used.
+Answer: A
+
+187. A full binary tree with n leaves contains ………….
+A.  n nodes
+B.  log n2 nodes
+C.  2n –1 nodes
+D.  2n nodes
+Answer: C
+
+188. The Θ notation in asymptotic evaluation represents ………..
+A.  Base case
+B.  Average case
+C.  Worst case
+D.  NULL case
+Answer: B
+
+189. A sort which relatively passes through a list to exchange the first element with any element less than it and then repeats with a new first element is called …………….
+A.  Insertion sort
+B.  Selection sort
+C.  Heap sort
+D.  Quick sort
+Answer: D
+
+190. Which of the following sorting algorithms does not have a worst case running time of O(n2) ?
+A.  Insertion sort
+B.  Merge sort
+C.  Quick sort
+D.  Bubble sort
+Answer: B
+
+191. An undirected graph G with n vertices and e edges is represented by adjacency list. What is the time required to generate all the connected components?
+A.  O(n)
+B.  O(e)
+C.  O(e+n)
+D.  O(e2)
+Answer: C
+
+192. A stable sorting algorithm:
+A.  does not crash.
+B.  does not run out of memory.
+C.  does not change the sequence of appearance of elements.
+D.  does not exists.
+Answer: C
+
+193. Consider a linked list of n elements. What is the time taken to insert an element after an element pointed by some pointer?
+A.  O(1)
+B.  O(log2 n)
+C.  O(n)
+D.  O(n log2 n)
+Answer: A
+
+194. How many pointers are contained as data members in the nodes of a circular, doubly linked list of integers with five nodes?
+A.  5
+B.  8
+C.  10
+D.  15
+Answer: C
+
+195. The smallest element of an array’s index is called its
+A.  lower bound
+B.  upper bound
+C.  range
+D.  extraction
+Answer: A
+
+196. In a circular linked list:
+A.  components are all linked together in some sequential manner.
+B.  there is no beginning and no end.
+C.  components are arranged hierarchically.
+D.  forward and backward traversal within the list is permitted.
+Answer: B
+
+197. What is the worst case run-time complexity of binary search algorithm?
+A.  Ο(n2)
+B.  Ο(nlog n)
+C.  Ο(n3)
+D.  Ο(n)
+Answer: D
+
+198. A graph with n vertices will definitely have a parallel edge or self loop of the total number of edges are …………..
+A.  more than n
+B.  more than n+1
+C.  more than (n+1)/2
+D.  more than n(n-1)/2
+Answer: D
+
+199. Interpolation search is an improved variant of binary search. It is necessary for this search algorithm to work that:
+A.  data collection should be in sorted form and equally distributed.
+
+B.  data collection should be in sorted form and but not equally distributed.
+
+C.  data collection should be equally distributed but not sorted.
+D.  None of these.
+Answer: A
+
+200. The minimum number of multiplications and additions required to evaluate the polynomial P = 4×3+3×2-15x+45 is
+A.  6 & 3
+B.  4 & 2
+C.  3 & 3
+D.  8 & 3
+Answer: C
+
+201. Which of the following is an example of dynamic programming approach?
+A.  Fibonacci Series
+B.  Tower of Hanoi
+C.  Dijkstra’s Shortest Path
+D.  All of the above
+Answer: D
+Consider:Y
+
+202. A queue data-structure can be used for ……………
+A.  expression parsing
+B.  recursion
+C.  resource allocation
+D.  all of these
+Answer: C
+
+203. The maximum degree of any vertex in a simple graph with n vertices is:
+A.  n–1
+B.  n+1
+C.  2n–1
+D.  n
+Answer: A
+
+204. The data structure required for Breadth First Traversal on a graph is ………….
+A.  Queue
+B.  Stack
+C.  Array
+D.  Tree
+Answer: A
+
+205. The quick sort algorithm exploit …………….. design technique.
+A.  Greedy
+B.  Dynamic programming
+C.  Divide and Conquer
+D.  Backtracking
+Answer: C
+
+206. The number of different directed trees with 3 nodes are:
+A.  2
+B.  3
+C.  4
+D.  5
+Answer: B
+
+207. One can convert a binary tree into its mirror image by traversing it in
+A.  in-order
+B.  pre-order
+C.  post-order
+D.  any order
+Answer: C
+
+209. Minimum number of moves required to solve a Tower of Hanoi puzzle is …………..
+A.  2^n2
+B.  2n-1
+C.  2n – 1
+D.  2n – 1
+Answer: C
+
+210. What kind of linked list begins with a pointer to the first node, and each node contains a pointer to the next node, and the pointer in the last node points back to the first node?
+A.  Circular, singly-linked list.
+B.  Circular, doubly-linked list.
+C.  Singly-linked list.
+D.  Doubly-linked list.
+Answer: A
+
+211. In a linked list with n nodes, the time taken to insert an element after an element pointed by some pointer is …………..
+A.  O(1)
+B.  O(log n)
+C.  O(n)
+D.  O(n 1og n)
+Answer: A
+
+212. The data structure required to evaluate a postfix expression is ………..
+A.  Queue
+B.  Stack
+C.  Array
+D.  linked-list
+Answer: B
+Consider:Y
+213. The data structure required to check whether an expression contains balanced parenthesis is …………
+A.  Stack
+B.  Queue
+C.  Tree
+D.  Array
+Answer: A
+Consider:Y
+214. The complexity of searching an element from a set of n elements using Binary search algorithm is …………
+A.  O(n)
+B.  O(log n)
+C.  O(n2)
+D.  O(n log n)
+Answer: B
+
+215. Which of the sorting techniques has highest best-case runtime complexity?
+A.  Quick sort
+B.  Selection sort
+C.  Insertion sort
+D.  Bubble sort
+Answer: B
+
+216. The number of leaf nodes in a complete binary tree of depth d is ………..
+A.  2d
+B.  2d–1+1
+C.  2d+1+1
+D.  2d+1
+Answer: A
+
+217. A circular linked list can be used for …………..
+A.  Stack
+B.  Queue
+C.  Both Stack & Queue
+D.  Neither Stack or Queue
+Answer: C
+
+218. What data structure would you mostly likely see in a non-recursive implementation of a recursive algorithm?
+A.  Stack
+B.  Linked list
+C.  Queue
+D.  Trees
+Answer: A
+
+219. Which of the following sorting methods would be most suitable for sorting a list which is almost sorted?
+A.  Bubble Sort
+B.  Insertion Sort
+C.  Selection Sort
+D.  Quick Sort
+Answer: A
+Consider:Y
+220. A B-tree of minimum degree t can maximum …………… pointers in a node.
+A.  t–1
+B.  2t–1
+C.  2t
+D.  t
+Answer: D
+
+221. The process of accessing data stored in a serial access memory is similar to manipulating data on a ……………
+A.  heap
+B.  queue
+C.  stack
+D.  binary tree
+Answer: C
+Consider:Y
+222. Recursion uses more memory space than iteration because ……………
+A.  it uses stack instead of queue.
+B.  every recursive call has to be stored.
+C.  both A & B are true.
+D.  None of the above.
+Answer: B
+
+223. Stack is used for ……………..
+A.  CPU Resource Allocation
+B.  Breadth First Traversal
+C.  Recursion
+D.  None of the above
+Answer: C
+
+224. A graph with n vertices will definitely have a parallel edge or self loop if the total number of edges are ……………….
+A.  greater than n–1
+B.  less than n(n–1)
+C.  greater than n(n–1)/2
+D.  less than n2/2
+Answer: A
+
+225. Re-balancing of AVL tree costs …………..
+A.  Ο(1)
+B.  Ο(log n)
+C.  Ο(n)
+D.  Ο(n2)
+Answer: B
+
+226. Given that the line
+	delete newPtr;
+	just executed, what can you conclude?
+A.  The memory referenced by newPtr is released only if it is needed by the system.
+B.  The pointer newPtr is of type void *.
+C.  The pointer newPtr only exists if there was an error freeing the memory.
+D.  The pointer newPtr still exists.
+Answer: D
+
+227. A BST is traversed in the following order recursively: Right, root, left The output sequence will be in
+A.  Ascending order
+B.  Descending order
+C.  Bitomic sequence
+D.  No specific order
+Answer: B
+
+228. Quick sort running time depends on the selection of ………………
+A.  size of array
+B.  pivot element
+C.  sequence of values
+D.  none of the above
+Answer: B
+
+229. The pre-order and post order traversal of a Binary Tree generates the same output. The tree can have maximum …………..
+A.  Three nodes
+B.  Two nodes
+C.  One node
+D.  Any number of nodes
+Answer: C
+
+230. The postfix form of A*B+C/D is”
+A.  *AB/CD+
+B.  AB*CD/+
+C.  A*BC+/D
+D.  ABCD+/*
+Answer: B
+
+231. Let the following circular queue can accommodate maximum six elements with the
+following data
+front = 2 rear = 4
+queue = ………; L, M, N, …., ….
+What will happen after ADD O operation takes place?
+A.  front = 2 rear = 5
+queue = ……….; L, M, N, O, ………
+B.  front = 3 rear = 5
+queue = L, M, N, O, ………
+C.  front = 3 rear = 4
+queue = ………; L, M, N, O, ………
+D.  front = 2 rear = 4
+queue = L, M, N, O, ………
+Answer: A
+
+232. A binary tree of depth “d” is an almost complete binary tree if:
+A.  Each leaf in the tree is either at level “d” or at level “d–1”
+B.  For any node “n” in the tree with a right descendent at level “d” all the left descendents of “n” that are leaves, are also at level “d”
+C.  Both A.  & B. 
+D.  None of the above
+Answer: C
+
+233. A linear collection of data elements where the linear node is given by means of pointer is called ……………
+A.  Linked list
+B.  Node list
+C.  Primitive list
+D.  None of these
+Answer: A
+
+234. Representation of data structure in memory is known as:
+A.  recursive
+B.  abstract data type
+C.  storage structure
+D.  file structure
+Answer: B
+
+235. If the address of A[1][1] and A[2][1] are 1000 and 1010 respectively and each element occupies 2 bytes then the array has been stored in …………… order.
+A.  row major
+B.  column major
+C.  matrix major
+D.  none of these
+Answer: A
+
+236. What data structure can be used to check if syntax has balanced parenthesis?
+A.  Queue
+B.  Tree
+C.  List
+D.  Stack
+Answer: D
+
+237. How many binary trees with 3 nodes which when traversed in post order gives the sequence A, B, C is ?
+A.  3
+B.  4
+C.  5
+D.  6
+Answer: C
+
+238. An adjacency matrix representation of a graph cannot contain information of :
+A.  nodes
+B.  edges
+C.  direction of edges
+D.  parallel edges
+Answer: D
+
+239. Which data structure represents a waiting line and limits insertions to be made at the back of the data structure and limits removals to be made from the front?
+A.  Stack
+B.  Queue
+C.  Binary tree
+D.  Linked list
+Answer: B
+
+240. Quick sort is also known as ………….
+A.  Merge sort
+B.  Heap sort
+C.  Bubble sort
+D.  None of these
+Answer: D
+
+241. An ADT is defined to be a mathematical model of a user-defined type along with the collection of all ……………. operations on that model.
+A.  Cardinality
+B.  Assignment
+C.  Primitive
+D.  Structured
+Answer: C
+
+242. An algorithm is made up of two independent time complexities f (n) and g (n). Then the complexities of the algorithm is in the order of
+A.  f(n) x g(n)
+B.  Max ( f(n),g(n))
+C.  Min (f(n),g(n))
+D.  f(n) + g(n)
+Answer: B
+
+243. The goal of hashing is to produce a search that takes ………….
+A.  O(1) time
+B.  O(n2) time
+C.  O(log n) time
+D.  O(n log n) time
+Answer: A
+
+244. The best average behaviour is shown by:
+A.  Quick Sort
+B.  Merge Sort
+C.  Insertion Sort
+D.  Heap Sort
+Answer: A
+
+245. What is the postfix form of the following prefix *+ab–cd
+A.  ab+cd–*
+B.  abc+*–
+C.  ab+*cd–
+D.  ab+*cd–
+Answer: A
+
+246. Time complexities of three algorithms are given. Which should execute the slowest for large values of N?
+A.  O(N1/2)
+B.  O(N)
+C.  O(log N)
+D.  None of these
+Answer: B
+
+247. What data structure is used for depth first traversal of a graph?
+A.  Queue
+B.  Stack
+C.  List
+D.  None of these
+Answer: B
+
+248. A queue is a,
+A.  FIFO (First In First Out) list.
+B.  LIFO (Last In First Out) list.
+C.  Ordered array.
+D.  Linear tree.
+Answer: A
+
+249. Time required to merge two sorted lists of size m and n, is …………
+A.  Ο(m | n)
+B.  Ο(m + n)
+C.  Ο(m log n)
+D.  Ο(n log m)
+Answer: B
+
+250. Which data structure is needed to convert infix notation to postfix notation?
+A.  Branch
+B.  Queue
+C.  Tree
+D.  Stack
+Answer: D
+
+251. In general, linked lists allow:
+A.  Insertions and removals anywhere.
+B.  Insertions and removals only at one end.
+C.  Insertions at the back and removals from the front.
+D.  None of the above.
+Answer: A
+Consider:Y
+252. Which of the following has search efficiency of Ο(1)?
+A.  Tree
+B.  Heap
+C.  Hash Table
+D.  Linked-List
+Answer: C
+Consider:Y
+253. Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?
+A.  Deleting a node whose location in given
+B.  Searching of an unsorted list for a given item
+C.  Inverting a node after the node with given location
+D.  Traversing a list to process each node
+Answer: A
+
+254. The extra key inserted at the end of the array is called a, …………….
+A.  End key.
+B.  Stop key.
+C.  Sentinel.
+D.  Transposition.
+Answer: C
+
+255. The prefix form of A-B/ (C * D ^ E) is:
+A.  -/*^ACBDE
+B.  -ABCD*^DE
+C.  -A/B*C^DE
+D.  -A/BC*^DE
+Answer: C
+
+256. Maximum number of nodes in a binary tree with height k, root is at height 0, is:
+A.  2k − 1
+B.  2k+1 − 1
+C.  2k-1 + 1
+D.  2k + 1
+Answer: B
+
+257. Consider that n elements are to be sorted. What is the worst case time complexity of Bubble sort?
+A.  O(1)
+B.  O(log2n)
+C.  O(n)
+D.  O(n2)
+Answer: D
+
+258. Time complexity of Depth First Traversal of is ………………
+A.  Θ(|V|+|E|)
+B.  Θ(|V|)
+C.  Θ(|E|)
+D.  Θ(|V|*|E|)
+Answer: A
+
+259. A characteristic of the data that binary search uses but the linear search ignores is the ………………
+A.  Order of the elements of the list.
+B.  Length of the list.
+C.  Maximum value in list.
+D.  Type of elements of the list.
+Answer: A
+
+260. In Breadth First Search of Graph, which of the following data structure is used?
+A.  Stack
+B.  Queue
+C.  Linked List
+D.  None of the above
+Answer: B
+
+261. The largest element of an array index is called its ……………..
+A.  lower bound.
+B.  range.
+C.  upper bound.
+D.  All of these.
+Answer: C
+
+262. What is the result of the following operation:
+Top (Push (S, X))
+A.  X
+B.  null
+C.  S
+D.  None of these.
+Answer: A
+
+263. How many nodes in a tree have no ancestors?
+A.  0
+B.  1
+C.  2
+D.  n
+Answer: B
+
+264. In order traversal of binary search tree will produce …………….
+A.  unsorted list
+B.  reverse of input
+C.  sorted list
+D.  none of the above
+Answer: C
+
+265. In binary heap, whenever the root is removed then the rightmost element of last level is replaced by the root. Why?
+A.  It is the easiest possible way.
+B.  To make sure that it is still complete binary tree.
+C.  Because left and right subtree might be missing.
+D.  None of these
+Answer: B
+
+266. In order to get the contents of a Binary search tree in ascending order, one has to traverse it in …………
+A.  pre-order
+B.  in-order
+C.  post order
+D.  not possible
+Answer: B
+
+267. Which of the following sorting algorithm is stable?
+A.  Insertion sort
+B.  Bubble sort
+C.  Quick sort
+D.  Heap sort
+Answer: D
+
+268. The prefix form of an infix expression p + q − r * t is:
+A.  + pq − *rt
+B.  − +pqr * t
+C.  − +pq * rt
+D.  − + * pqrt
+Answer: C
+
+269. Which data structure is used for implementing recursion?
+A.  Queue
+B.  Stack
+C.  Arrays
+D.  List
+Answer: B
+
+270. In binary search, average number of comparison required for searching an element in a list if n numbers is:
+A.  log2 n
+B.  n / 2
+C.  n
+D.  n – 1
+Answer: A

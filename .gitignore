@@ -3,3 +3,11 @@
 ################################################################################
 
 /ConsoleApp1/bin/Debug/netcoreapp3.1
+/ConsoleApp1/obj
+/ConsoleApp1/VSdoc
+/packages
+/TestProject/obj/Debug
+/TestWindowsProject/bin/Debug
+/TestWindowsProject/obj
+/WebApplication1/bin
+/WebApplication1/obj

@@ -1,0 +1,1608 @@
+1. A relational database consists of a collection of
+a) Tables
+b) Fields
+c) Records
+d) Keys
+
+Answer: a
+Explanation:Fields are the column of the relation or tables.Records are each row in relation.Keys are the constraints in a relation .
+
+2. A ________ in a table represents a relationship among a set of values.
+a) Column
+b) Key
+c) Row
+d) Entry
+
+Answer: c
+Explanation:Column has only one set of values.Keys are constraints and row is one whole set of attributes.Entry is just a piece of data.
+
+3. The term _______ is used to refer to a row.
+a) Attribute
+b) Tuple
+c) Field
+d) Instance
+
+Answer: b
+Explanation:Tuple is one entry of the relation with several attributes which are fields.
+
+4. The term attribute refers to a ___________ of a table.
+a) Record
+b) Column
+c) Tuple
+d) Key
+
+Answer: b
+Explanation:Attribute is a specific domain in the relation which has entries of all tuples.
+
+5. For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+a) Domain
+b) Relation
+c) Set
+d) Schema
+
+Answer: a
+Explanation:The values of the attribute should be present in the domain.Domain is a set of values permitted .
+
+6. Database __________ , which is the logical design of the database, and the database _______,which is a snapshot of the data in the database at a given instant in time.
+a) Instance, Schema
+b) Relation, Schema
+c) Relation, Domain
+d) Schema, Instance
+
+Answer: d
+Explanation:Instance is a instance of time and schema is a representation.
+
+7.Course(course_id,sec_id,semester)
+Here the course_id,sec_id and semester are __________ and course is a _________ .
+a) Relations, Attribute
+b) Attributes, Relation
+c) Tuple, Relation
+d) Tuple, Attributes
+
+Answer: b
+Explanation:The relation course has a set of attributes course_id,sec_id,semester .
+
+8. Department (dept name, building, budget) and Employee (employee_id , name, dept name,salary)
+Here the dept_name attribute appears in both the relations .Here using common attributes in relation schema is one way of relating ___________ relations.
+a) Attributes of common
+b) Tuple of common
+c) Tuple of distinct
+d) Attributes of distinct
+
+Answer: c
+Explanation:Here the relations are connected by the common attributes.
+
+9. A domain is atomic if elements of the domain are considered to be ____________ units.
+a) Different
+b) Indivisbile
+c) Constant
+d) Divisible
+
+Answer: b
+Explanation:None.
+
+10. The tuples of the relations can be of ________ order.
+a) Any
+b) Same
+c) Sorted
+d) Constant
+
+Answer: a
+Explanation:The values only count .The order of the tuples does not matter.
+
+11. Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?
+a) Candidate key
+b) Sub key
+c) Super key
+d) Foreign key
+
+Answer: c
+Explanation:Super key is the superset of all the keys in a relation.
+
+12. Consider attributes ID , CITY and NAME . Which one of this can be considered as a super key ?
+a) NAME
+b) ID
+c) CITY
+d) CITY , ID
+
+Answer: b
+Explanation:Here the id is the only attribute which can be taken as a key. Other attributes are not uniquely identified .
+
+13. The subset of super key is a candidate key under what condition ?
+a) No proper subset is a super key
+b) All subsets are super keys
+c) Subset is a super key
+d) Each subset is a super key
+
+Answer: a
+Explanation:The subset of a set cannot be the same set.Candidate key is a set from a super key which cannot be the whole of the super set
+
+14. A _____ is a property of the entire relation, rather than of the individual tuples in which each tuple is unique.
+a) Rows
+b) Key
+c) Attribute
+d) Fields
+
+Answer: b
+Explanation:Key is the constraint which specifies uniqueness.
+
+15. Which one of the following attribute can be taken as a primary key ?
+a) Name
+b) Street
+c) Id
+d) Department
+
+Answer: c
+Explanation:The attributes name , street and department can repeat for some tuples.But the id attribute has to be unique .So it forms a primary key.
+
+16. Which one of the following cannot be taken as a primary key ?
+a) Id
+b) Register number
+c) Dept_id
+d) Street
+
+Answer: d
+Explanation:Street is the only attribute which can occur more than once.
+
+17. A attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation .
+a) Candidate
+b) Primary
+c) Super
+d) Sub
+
+Answer: b
+Explanation:The primary key has to be referred in the other relation to form a foreign key in that relation .
+
+18. The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as primary key is called
+a) Referential relation
+b) Referencing relation
+c) Referenced relation
+d) Referred relation
+
+Answer: b
+Explanation:None.
+
+19. The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation .
+a) Referential relation
+b) Referencing relation
+c) Referenced relation
+d) Referred relation
+
+Answer: c
+Explanation:None.
+
+20. A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
+a) Referential
+b) Referencing
+c) Specific
+d) Primary
+
+Answer: a
+Explanation:A relation, say r1, may include among its attributes the primary key of another relation, say r2. This attribute is called a foreign key from r1, referencing r2. The relation r1 is also called the referencing relation of the foreign key dependency, and r2 is called the referenced relation of the foreign key.
+
+21. Using which language can a user request information from a database ?
+a) Query
+b) Relational
+c) Structural
+d) Compiler
+
+Answer: a
+Explanation:Query language is a method through which the database entries can be accessed.
+
+22. Student(ID, name, dept name, tot_cred)
+In this query which attribute form the primary key?
+a) Name
+b) Dept
+c) Tot_cred
+d) ID
+
+Answer: d
+Explanation:The attributes name ,dept and tot_cred can have same values unlike ID .
+
+23. Which one of the following is a procedural language ?
+a) Domain relational calculus
+b) Tuple relational calculus
+c) Relational algebra
+d) Query language
+
+Answer: c
+Explanation:Domain and Tuple relational calculus are non-procedural language.Query language is a method through which the database entries can be accessed.
+
+24. The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+a) Select
+b) Join
+c) Union
+d) Group by
+
+Answer: b
+Explanation:Join finds the common tuple in the relations and combines it.
+
+25. The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+a) Join
+b) Cartesian product
+c) Intersection
+d) Set difference
+
+Answer: b
+Explanation:Cartesian product is the multiplication of all the values in the attributes.
+
+26. The _______operation performs a set union of two “similarly structured” tables
+a) Union
+b) Join
+c) Product
+d) Intersect
+
+Answer: a
+Explanation:Union just combines all the values of relations of same attributes.
+
+27. The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+a) Join
+b) Projection
+c) Select
+d) Union
+
+Answer: c
+Explanation:Select is used to view the tuples of the relation with or without some constraints.
+
+28. The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+a) Union
+b) Intersect
+c) Difference
+d) Projection
+
+Answer: b
+Explanation:The union operator gives the result which is the union of two queries and difference is the one where query which is not a part of second query .
+
+29. A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+a) Schema diagram
+b) Relational algebra
+c) Database diagram
+d) Schema flow
+
+Answer: a
+Explanation:None.
+
+30. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+a) Schematic representation
+b) Relational algebra
+c) Scheme diagram
+d) Relation flow
+
+Answer: b
+Explanation:None.
+
+31. Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas ?
+a) DML(Data Manipulation Langauge)
+b) DDL(Data Definition Langauge)
+c) Query
+d) Relational Schema
+
+Answer: b
+Explanation: Data Definition language is the language which performs all the operation in defining structure of relation.
+
+32. Which one of the following provides the ability to query information from the database and to insert tuples into, delete tuples from, and modify tuples in the database ?
+a) DML(Data Manipulation Langauge)
+b) DDL(Data Definition Langauge)
+c) Query
+d) Relational Schema
+
+Answer: a
+Explanation: DML performs change in the values of the relation .
+
+33. Create table employee (name varchar ,id integer)
+What type of statement is this ?
+a) DML
+b) DDL
+c) View
+d) Integrity constraint
+
+Answer: b
+Explanation:Data Definition language is the language which performs all the operation in defining structure of relation.
+
+34. Select * from employee
+What type of statement is this?
+a) DML
+b) DDL
+c) View
+d) Integrity constraint
+
+Answer: a
+Explanation: Select operation just shows the required fields of the relation. So it forms a DML
+
+35. The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.
+a) Fixed, equal
+b) Equal, variable
+c) Fixed, variable
+d) Variable, equal
+
+Answer: c
+Explanation: Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces .
+
+36. An attribute A of datatype varchar(20) has the value “Avi” . The attribute B of datatype char(20) has value ”Reed” .Here attribute A has ____ spaces and attribute B has ____ spaces .
+a) 3, 20
+b) 20, 4
+c) 20 , 20
+d) 3, 4
+
+Answer: a
+Explanation: Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces.
+
+37. To remove a relation from an SQL database, we use the ______ command.
+a) Delete
+b) Purge
+c) Remove
+d) Drop table
+
+Answer: d
+Explanation: Drop table deletes the whole structure of the relation .purge removes the table which cannot be obtained again.
+
+38. Delete from r; r – relation
+This command performs which of the following action ?
+a) Remove relation
+b) Clear relation entries
+c) Delete fields
+d) Delete rows
+
+Answer: b
+Explanation: Delete command removes the entries in the table.
+
+39. Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);
+What type of statement is this ?
+a) Query
+b) DML
+c) Relational
+d) DDL
+
+Answer: b
+Explanation: The values are manipulated .So it is a DML .
+
+40. Updates that violate __________ are disallowed .
+a) Integrity constraints
+b) Transaction control
+c) Authorization
+d) DDL constraints
+
+Answer: a
+Explanation:Integrity constraint has to be maintained in the entries of the relation .
+
+41. Select name ____ instructor name, course id
+from instructor, teaches
+where instructor.ID= teaches.ID;
+Which keyword must be used here to rename the field name ?
+a) From
+b) Rename
+c) As
+d) Join
+
+Answer: c
+Explanation:As keyword is used to rename.
+
+42. Select * from employee where dept_name=”Comp Sci”;
+In the SQL given above there is an error . Identify the error .
+a) Dept_name
+b) Employee
+c) “Comp Sci”
+d) From
+
+Answer: c
+Explanation:For any string operations single quoted(‘) must be used to enclose.
+
+43. Select emp_name
+	from department
+	where dept_name like ’ _____ Computer Science’;
+Which one of the following has to be added into the blank to select the dept_name which has Computer Science as its ending string ?
+a) %
+b) _
+c) ||
+d) $
+
+Answer: a
+Explanation:The % character matches any substring.
+
+44. ’_ _ _ ’ matches any string of ______ three characters. ’_ _ _ %’ matches any string of at ______ three characters.
+a) Atleast, Exactly
+b) Exactly, Atleast
+c) Atleast, All
+d) All , Exactly
+
+Answer: b
+Explanation:None.
+
+45. Select name
+	from instructor
+	where dept name = ’Physics’
+	order by name;
+By default, the order by clause lists items in ______ order.
+a) Descending
+b) Any
+c) Same
+d) Ascending
+
+Answer: d
+Explanation:Specification of descending order is essential but it not for ascending.
+
+46. Select *
+	from instructor
+	order by salary ____, name ___;
+To display the salary from greater to smaller and name in ascending order which of the following options should be used ?
+a) Ascending, Descending
+b) Asc, Desc
+c) Desc, Asc
+d) Descending, Ascending
+
+Answer: c
+Explanation:None.
+
+47. Select name
+	from instructor
+	where salary <= 100000 and salary >= 90000;
+This query can be replaced by which of the following ?
+a) Select name
+	from instructor
+	where salary between 90000 and 100000;
+b) Select name
+	from employee
+	where salary <= 90000 and salary>=100000;
+c) Select name
+	from employee
+	where salary between 90000 and 100000;
+d) Select name
+	from instructor
+	where salary between 100000 and 90000;
+
+Answer: a
+Explanation: SQL includes a between comparison operator to simplify where clauses that specify that a value be less than or equal to some value and greater than or equal to some other value.
+
+48. Select instructor.*
+	from instructor, teaches
+	where instructor.ID= teaches.ID;
+This query does which of the following operation?
+a) All attributes of instructor and teaches are selected
+b) All attributes of instructor are selected on the given condition
+c) All attributes of teaches are selected on given condition
+d) Only the some attributes from instructed and teaches are selected
+
+Answer: b
+Explanation:The asterisk symbol “ * ” can be usedin the select clause to denote “all attributes.”
+
+49. In SQL the spaces at the end of the string are removed by _______ function .
+a) Upper
+b) String
+c) Trim
+d) Lower
+
+Answer: c
+Explanation: The syntax of trim is Trim(s); where s-string .
+
+50. _____ operator is used for appending two strings.
+a) &
+b) %
+c) ||
+d) _
+
+Answer: c
+Explanation: || is the concatenation operator.
+
+51. The union operation is represented by
+a) n
+b) U
+c) –
+d5) *
+
+Answer: b
+Explanation:Union operator combines the relations.
+
+52. The intersection operator is used to get the _____ tuples.
+a) Different
+b) Common
+c) All
+d) Repeating
+
+Answer: b
+Explanation:Intersection operator ignores unique tuples and takes only common ones.
+
+53. The union operation automatically __________, unlike the select clause.
+a) Adds tuples
+b) Eliminates unique tuples
+c) Adds common tuples
+d) Eliminates duplicate
+
+Answer: d
+Explanation:None.
+
+54. If we want to retain all duplicates, we must write ________ in place of union.
+a) Union all
+b) Union some
+c) Intersect all
+d) Intersect some
+
+Answer: a
+Explanation:Union all will combine all the tuples including duplicates.
+
+55. (Select course id
+	from section
+	where semester = ’Fall’ and year= 2009)
+	except
+	(select course id
+	from section
+	where semester = ’Spring’ and year= 2010);
+This query displays
+a) Only tuples from second part
+b) Only tuples from the first part which has the tuples from second part
+c) Tuples from both the parts
+d) Tuples from first part which do not have second part
+
+Answer: d
+Explanation:Except keyword is used to ignore the values.
+
+56. For like predicate which of the following is true.
+i) % matches zero of more characters.
+ii) _ matches exactly one character.
+a) i-only
+b) ii-only
+c) Both of the mentioned
+d) None of the mentioned
+
+Answer: a
+Explanation:% is used with like and _ is used to fill in the character.
+
+57. The number of attributes in relation is called as its
+a) Cardinality
+b) Degree
+c) Tuples
+d) Entity
+
+Answer: b
+Explanation:None.
+
+58. _____ clause is an additional filter that is applied to the result.
+a) Select
+b) Group-by
+c) Having
+d) Order by
+
+Answer: c
+Explanation:Having is used to provide additional aggregate filtration to the query.
+
+59. _________ joins are SQL server default
+a) Outer
+b) Inner
+c) Equi
+d) None of the mentioned
+
+Answer: b
+Explanation:It is optional to give the inner keyword with join as it is default .
+
+60. The _____________ is essentially used to search for patterns in target string.
+a) Like Predicate
+b) Null Predicate
+c) In Predicate
+d) Out Predicate
+
+Answer: a
+Explanation:Like predicate matches the string in the given pattern.
+
+61. A _____ indicates an absent value that may exist but be unknown or that may not exist at all.
+a) Empty tuple
+b) New value
+c) Null value
+d) Old value
+
+Answer: c
+Explanation:None.
+
+62. If the attribute phone number is included in the relation all the values need not be entered into the phone number column . This type of entry is given as
+a) 0
+b) –
+c) Null
+d) Empty space
+
+Answer: c
+Explanation:Null is used to represent absence of a value.
+
+63. The predicate in a where clause can involve Boolean operations such as and.The result of true and unknown is_______, false and unknown is _____, while unknown and unknown is _____.
+a) Unknown, unknown, false
+b) True, false, unknown
+c) True, unknown, unknown
+d) Unknown, false, unknown
+
+Answer: d
+Explanation:None.
+
+64. Select name
+from instructor
+where salary is not null;
+Selects
+a) Tuples with null value
+b) Tuples with no null values
+c) Tuples with any salary
+d) All of the mentioned
+
+Answer: b
+Explanation:Not null constraint removes the tpules of null values.
+
+65. In a employee table to include the attributes whose value always have some value which of the following constraint must be used ?
+a) Null
+b) Not null
+c) Unique
+d) Distinct
+
+Answer: b
+Explanation:Not null constraint removes the tpules of null values.
+
+66. Using the ______ clause retains only one copy of such identical tuples.
+a) Null
+b) Unique
+c) Not null
+d) Distinct
+
+Answer: d
+Explanation:Unique is a constraint.
+
+67. Create table employee (id integer,name varchar(20),salary not null);
+	Insert into employee values (1005,Rach,0);
+	Insert into employee values (1007,Ross, );
+	Insert into employee values (1002,Joey,335);
+Some of these insert statements will produce an error. Identify the statement.
+a) Insert into employee values (1005,Rach,0);
+b) Insert into employee values (1002,Joey,335);
+c) Insert into employee values (1007,Ross, );
+d) Both a and c
+
+Answer: c
+Explanation:Not null constraint is specified which means sone value (can include 0 also) should be given.
+
+68. The primary key must be
+a) Unique
+b) Not null
+c) Both a and b
+d) Either a or b
+
+Answer: c
+Explanation:Primary key must satisfy unique and not null condition for sure.
+
+69. You attempt to query the database with this command: (25)
+	select nvl (100 / quantity, none)
+	from inventory;
+Why does this statement cause an error when QUANTITY values are null?
+a. The expression attempts to divide by a null value.
+b. The data types in the conversion function are incompatible.
+c. The character string none should be enclosed in single quotes (‘ ‘).
+d. A null value used in an expression cannot be converted to an actual value
+
+Answer: a
+Explanation: The expression attempts to divide by a null value is errorneous in sql.
+
+70. The result of _____unknown is unknown.
+a) Xor
+b) Or
+c) And
+d) Not
+
+Answer: d
+Explanation:Since unknown does not hold any value the value cannot have a reverse value.
+
+71. Aggregate functions are functions that take a ___________ as input and return a single value.
+a) Collection of values
+b) Single value
+c) Aggregate value
+d) Both a & b
+
+Answer: a
+Explanation:None.
+
+72. Select __________
+	from instructor
+	where dept name= ’Comp. Sci.’;
+Which of the following should be used to find the mean of the salary ?
+a) Mean(salary)
+b) Avg(salary)
+c) Sum(salary)
+d) Count(salary)
+
+Answer: b
+Explanation:Avg() is used to find the mean of the values.
+
+73. Select count (____ ID)
+	from teaches
+	where semester = ’Spring’ and year = 2010;
+If we do want to eliminate duplicates, we use the keyword ______in the aggregate expression.
+a) Distinct
+b) Count
+c) Avg
+d) Primary key
+
+Answer: a
+Explanation:Distinct keyword is used to select only unique items from the relation.
+
+74. All aggregate functions except _____ ignore null values in their input collection.
+a) Count(attribute)
+b) Count(*)
+c) Avg
+d) Sum
+
+Answer: b
+Explanation:* is used to select all values including null.
+
+75. A Boolean data type that can take values true, false, and________ .
+a) 1
+b) 0
+c) Null
+d) Unknown
+
+Answer: d
+Explanation:Unknown values do not take null value but it is not known.
+
+RDBMS Objective Questions and Answers Pdf
+76. The ____ connective tests for set membership, where the set is a collection of values produced by a select clause. The ____ connective tests for the absence of set membership.
+a) Or, in
+b) Not in, in
+c) In, not in
+d) In, or
+
+Answer: c
+Explanation:In checks if the query has the value but not in checks if it does not have the value.
+
+77. Which of the following should be used to find all the courses taught in the Fall 2009 semester but not in the Spring 2010 semester .
+a) Select distinct course id
+	from section
+	where semester = ’Fall’ and year= 2009 and
+	course id not in (select course id
+	from section
+	where semester = ’Spring’ and year= 2010);
+b) Select distinct course_id
+	from instructor
+	where name not in (’Fall’, ’Spring’);
+c) (Select course id
+	from section
+	where semester = ’Spring’ and year= 2010)
+d) Select count (distinct ID)
+	from takes
+	where (course id, sec id, semester, year) in (select course id, sec id, semester, year
+	from teaches
+	where teaches.ID= 10101);
+
+Answer: a
+Explanation:None.
+
+78. The phrase “greater than at least one” is represented in SQL by _____.
+a) < all 
+b) < some 
+c) > all
+d) > some
+
+Answer: d
+Explanation: >some takes atlest one value above it .
+
+79. Which of the following is used to find all courses taught in both the Fall 2009 semester and in the Spring 2010 semester .
+a) Select course id
+	from section as S
+	where semester = ’Fall’ and year= 2009 and
+	exists (select *
+	from section as T
+	where semester = ’Spring’ and year= 2010 and
+	S.course id= T.course id);
+b) Select name
+	from instructor
+	where salary > some (select salary
+	from instructor
+	where dept name = ’Biology’);
+c) Select count (distinct ID)
+	from takes
+	where (course id, sec id, semester, year) in (select course id, sec id, semester, year
+	from teaches
+	where teaches.ID= 10101);
+d) (Select course id
+	from section
+	where semester = ’Spring’ and year= 2010)
+
+Answer: a
+Explanation:None.
+
+80. We can test for the nonexistence of tuples in a subquery by using the _____ construct.
+a) Not exist
+b) Not exists
+c) Exists
+d) Exist
+
+Answer: b
+Explanation:Exists is used to check for existence of tuples.
+
+81. A Delete command operates on ______ relation.
+a) One
+b) Two
+c) Several
+d) Null
+
+Answer: a
+Explanation:Delete can delete from only one table at a time.
+
+82. Delete from r where P;
+The above command
+a) Deletes a particular tuple from the relation
+b) Deletes the relation
+c) Clears all entries from the relation
+d) All of the mentioned
+
+Answer: a
+Explanation:Here P gives the condition for deleting specific rows.
+
+83. Which one of the following deletes all the entries but keeps the structure of the relation .
+a) Delete from r where P;
+b) Delete from instructor where dept name= ’Finance’;
+c) Delete from instructor where salary between 13000 and 15000;
+d) Delete from instructor;
+
+Answer: d
+Explanation:Absence of condition deletes all rows.
+
+84. Which of the following is used to insert a tuple from another relation .
+a) Insert into course (course id, title, dept name, credits)
+	values (’CS-437’, ’Database Systems’, ’Comp. Sci.’, 4);
+b) Insert into instructor
+	select ID, name, dept name, 18000
+	from student
+	where dept name = ’Music’ and tot cred > 144;
+c) Insert into course values (’CS-437’, ’Database Systems’, ’Comp. Sci.’, 4);
+d) Not possible
+
+Answer: b
+Explanation:Using select statement in insert will include rows which are the result of the selection.
+
+85. Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the Watson building which is in department relation.
+a) Delete from instructor
+	where dept_name in ‘Watson’;
+b) Delete from department
+	where building=’Watson’;
+c) Delete from instructor
+	where dept_name in (select dept name
+	from department
+	where building = ’Watson’);
+d) Both a and c
+
+Answer: c
+Explanation:The query must include building=watson condition to filter the tuples.
+
+86. Update instructor
+_____ salary= salary * 1.05;
+Fill in with correct keyword to update the instructor relation.
+a) Where
+b) Set
+c) In
+d) Select
+
+Answer: b
+Explanation:Set is used to update the particular value.
+
+87. _________ are useful in SQL update statements,where they can be used in the set clause.
+a) Multiple queries
+b) Sub queries
+c) Update
+d) Scalar subqueries
+
+Answer: d
+Explanation:None.
+
+88. The problem of ordering the update in multiple update is avoided using
+a) Set
+b) Where
+c) Case
+d) When
+
+Answer: c
+Explanation:The case statements can add the order of updating tuples.
+
+89. Which of the following is the correct format for case statements .
+a) Case
+	when pred1 … result1
+	when pred2 … result2
+	. . .
+	when predn … resultn
+	
+	else result0
+	end
+b) Case
+	when pred1 then result1
+	when pred2 then result2
+	. . .
+	when predn then resultn
+	else result0
+	end
+c) Case
+	when pred1 then result1
+	when pred2 then result2
+	. . .
+	when predn then resultn
+	else result0
+d) All of the mentioned
+
+Answer: b
+Explanation:None.
+
+90. The____condition allows a general predicate over the relations being joined.
+a) On
+b) Using
+c) Set
+d) Where
+
+Answer: a
+Explanation:On gives the condition for the join expression.
+
+91. Which of the join operations do not preserve non matched tuples.
+a) Left outer join
+b) Right outer join
+c) Inner join
+d) Natural join
+
+Answer: c
+Explanation:INNER JOIN: Returns all rows when there is at least one match in BOTH tables.
+
+92. Select *
+	from student join takes using (ID);
+T	he above query is equivalent to
+a) Select *
+	from student inner join takes using (ID);
+b) Select *
+	from student outer join takes using (ID);
+c) Select *
+	from student left outer join takes using (ID);
+d) Both a and b
+
+Answer: a
+Explanation:Join can be replaced by inner join.
+
+93. What type of join is needed when you wish to include rows that do not have matching values?
+a) Equi-join
+b) Natural join
+c) Outer join
+d) All of the mentioned
+
+Answer: c
+Explanation:An outer join does not require each record in the two joined tables to have a matching record..
+
+94. How many tables may be included with a join?
+a) One
+b) Two
+c) Three
+d) All of the mentioned
+
+Answer: d
+Explanation:Join can combine multiple tables.
+
+95. Which are the join types in join condition:
+a) Cross join
+b) Natural join
+c) Join with USING clause
+d) All of the mentioned
+
+Answer: d
+Explanation:There are totally four join types in SQL.
+
+96. How many join types in join condition:
+a) 2
+b) 3
+c) 4
+d) 5
+
+Answer: d
+Explanation:Types are inner join,left outer join,right outer join,full join,cross join.
+
+97. Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
+a) Left outer join
+b) Right outer join
+c) Full outer join
+d) Half outer join
+
+Answer: b
+Explanation:RIGHT OUTER JOIN: Return all rows from the right table, and the matched rows from the left table.
+
+98. The operation which is not considered a basic operation of relational algebra is
+a) Join
+b) Selection
+c) Union
+d) Cross product
+
+Answer: a
+Explanation:None.
+
+99. In SQL the statement select * from R, S is equivalent to
+a) Select * from R natural join S
+b) Select * from R cross join S
+c) Select * from R union join S
+d) Select * from R inner join S
+
+Answer: b
+Explanation:None.
+
+100. Which of the following creates a virtual relation for storing the query ?
+a) Function
+b) View
+c) Procedure
+d) None of the mentioned
+
+Answer: b
+Explanation:Any such relation that is not part of the logical model, but is made visible to a
+user as a virtual relation, is called a view.
+
+101. Which of the following is the syntax for views where v is view name ?
+a) Create view v as “query name”;
+b) Create “query expression” as view;
+c) Create view v as “query expression”;
+d) Create view “query expression”;
+
+Answer: c
+Explanation: is any legal query expression. The view name is
+represented by v.
+
+102. Select course_id
+	from physics_fall_2009
+	where building= ’Watson’;
+Here the tuples are selected from the view.Which one denotes the view.
+a) Course_id
+b) Watson
+c) Building
+d) physics_fall_2009
+
+Answer: c
+Explanation:View names may appear in a query any place where a relation name may appear.
+
+103. Materialised views make sure that
+a) View definition is kept stable
+b) View definition is kept up-to-date
+c) View definition is verified for error
+d) View is deleted after specified time
+
+Answer: b
+Explanation:None.
+
+104. Updating the value of the view
+a) Will affect the relation from which it is defined
+b) Will not change the view definition
+c) Will not affect the relation from which it is defined
+d) Cannot determine
+
+Answer: a
+Explanation:None.
+
+105. SQL view is said to be updatable (that is, inserts, updates or deletes can be applied on the view) if which of the following conditions are satisfied by the query defining the view?
+a) The from clause has only one database relation.
+b) The query does not have a group by or having clause.
+c) The select clause contains only attribute names of the relation, and does not have any expressions, aggregates, or distinct specification.
+d) All of the mentioned
+
+Answer: d
+Explanation:All of the conditions must be satisfied to update the view in sql.
+
+106. Which of the following is used at the end of the view to reject the tuples which do not satisfy the condition in where clause ?
+a) With
+b) Check
+c) With check
+d) All of the mentioned
+
+Answer: c
+Explanation:Views can be defined with a with check option clause at the end of the view definition; then, if a tuple inserted into the view does not satisfy the view’s where clause condition, the insertion is rejected by the database system.
+
+107. For the view Create view instructor_info as
+	select ID, name, building
+	from instructor, department
+	where instructor.dept name= department.dept name;
+	If we insert tuple into the view as insert into instructor info values (’69987’, ’White’, ’Taylor’);
+	What will be the values of the other attributes in instructor and department relations?
+a) Default value
+b) Null
+c) Error statement
+d) 0
+
+Answer: b
+Explanation:The values take null if there is no constraint in the attribute else it is a Erroneous statement.
+
+108. Create view faculty as
+	Select ID, name, dept name
+	from instructor;
+	Find the error in this query .
+a) Instructor
+b) Select
+c) View …as
+d) None of the mentioned
+
+Answer: d
+Explanation:Syntax is – create view v as ;.
+
+109. A _________ consists of a sequence of query and/or update statements.
+a) Transaction
+b) Commit
+c) Rollback
+d) Flashback
+
+Answer: a
+Explanation:Transaction is a set of operation until commit.
+
+110. Which of the following makes the transaction permanent in the database ?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+
+Answer: b
+Explanation:Commit work commits the current transaction.
+
+111. In order to undo the work of transaction after last commit which one should be used ?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+
+Answer: c
+Explanation:Rollback work causes the current transaction to be rolled back; that is, it undoes all the updates performed by the SQL statements in the transaction.
+
+112. Consider the following action:
+	Transaction…..
+	Commit;
+	Rollback;
+	What does Rollback do?
+a) Undoes the transactions before commit
+b) Clears all transactions
+c) Redoes the transactions before commit
+d) No action
+
+Answer: d
+Explanation:Once a transaction has executed commit work, its effects can no longer be undone by rollback work.
+
+113. In case of any shut down during transaction before commit which of the following statement is done automatically ?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+
+Answer: c
+Explanation:Once a transaction has executed commit work, its effects can no longer be undone by rollback work.
+
+114. In order to maintain the consistency during transactions database provides
+a) Commit
+b) Atomic
+c) Flashback
+d) Retain
+
+Answer: b
+Explanation:By atomic , either all the effects of the transaction are reflected in the database, or none are (after rollback).
+
+115. Transaction processing is associated with everything below except
+a) Conforming a action or triggering a response
+b) Producing detail summary or exception report
+c) Recording a business activity
+d) Maintaining a data
+
+Answer: a
+Explanation:None.
+
+116. A transaction completes its execution is said to be
+a) Committed
+b) Aborted
+c) Rolled back
+d) Failed
+
+Answer: a
+Explanation:A complete transaction always commits.
+
+117. Which of the following is used to get back all the transactions back after rollback ?
+a) Commit
+b) Rollback
+c) Flashback
+d) Redo
+
+Answer: c
+Explanation:None.
+
+118. ______ will undo all statements up to commit?
+a) Transaction
+b) Flashback
+c) Rollback
+d) Abort
+
+Answer: c
+Explanation:Flashback will undo all the statements and Abort will terminate the operation.
+
+119. The database administrator who authorizes all the new users, modifies database and takes grants privilege is
+a) Super user
+b) Administrator
+c) Operator of operating system
+d) All of the mentioned
+
+Answer: d
+Explanation:The authorizations provided by the administrator to the user is privilege.
+
+120. Which of the following is a basic form of grant statement ?
+a) Grant ‘privilege list’
+	on ‘relation name or view name’
+	to ‘user/role list’;
+b) Grant ‘privilege list’
+	on ‘user/role list’
+	to ‘relation name or view name’;
+c) Grant ‘privilege list’
+	to ‘user/role list’
+d) Grant ‘privilege list’
+	on ‘relation name or view name’
+	on ‘user/role list’;
+
+Answer: a
+Explanation:The privilege list allows the granting of several privileges in one command .
+
+121. Which of the following is used to provide privilege to only a particular attribute ?
+a) Grant select on employee to Amit
+b) Grant update(budget) on department to Raj
+c) Grant update(budget,salary,Rate) on department to Raj
+d) Grant delete to Amit
+
+Answer: b
+Explanation:This grant statement gives user Raj update authorization on the budget attribute of the department relation.
+
+122. Which of the following statement is used to remove the privilege from the user Amir ?
+a) Remove update on department from Amir
+b) Revoke update on employee from Amir
+c) Delete select on department from Raj
+d) Grant update on employee from Amir
+
+Answer: b
+Explanation:revoke on from ;
+
+123. Which of the following is used to provide delete authorization to instructor ?
+a) Create role instructor ;
+	grant delete to instructor;
+b) Create role instructor;
+	grant select on takes
+	to instructor;
+c) Create role instructor;
+	grant delete on takes
+	to instructor;
+d) All of the mentioned
+
+Answer: c
+Explanation:The role is first created and the authorization is given on relation takes to the role.
+
+124. Which of the following is true regarding views ?
+a) The user who creates a view cannot be given update authorization on a view without having update authorization on the relations used to define the view.
+b) The user who creates a view cannot be given update authorization on a view without having update authorization on the relations used to define the view.
+c) If a user creates a view on which no authorization can be granted, the system will allow the view creation request.
+d) A user who creates a view receives all privileges on that view.
+
+Answer: c
+Explanation:A user who creates a view does not necessarily receive all privileges on that view.
+
+125. If we wish to grant a privilege and to allow the recipient to pass the privilege on to other users, we append the __________ clause to the appropriate grant command.
+a) With grant
+b) Grant user
+c) Grant pass privelege
+d) With grant option
+
+Answer: d
+Explanation:None.
+
+126. In authorization graph if DBA provides authorization to u1 which inturn gives to u2 which of the following is correct ?
+a) If DBA revokes authorization from u1 then u2 authorization is also revoked .
+b) If u1 revokes authorization from u2 then u2 authorization is revoked .
+c) Both a and b
+d) If u2 revokes authorization then u1 authorization is revoked .
+
+Answer: c
+Explanation:A user has an authorization if and only if there is a path from the root of the authorization graph down to the node representing the user.
+
+127. Which of the following is used to avoid cascading of authorizations from the user ?
+a) Granted by current role
+b) Revoke select on department from Amit, Satoshi restrict;
+c) Revoke grant option for select on department from Amit;
+d) Revoke select on department from Amit, Satoshi cascade;
+
+Answer: b
+Explanation:The revoke statement may specify restrict in order to prevent cascading revocation.The keyword cascade can be used instead of restrict to indicate that revocation should cascade.
+
+128. The granting and revoking of roles by the user may cause some confusions when that user role is revoked .To overcome the above situation
+a) The privilege must be granted only by roles
+b) The privilege is granted by roles and users
+c) The user role cannot be removed once given
+d) By restricting the user access to the roles
+
+Answer: a
+Explanation:The current role associated with a session can be set by executing set role role name. The specified role must have been granted to the user, else the set role statement fails.
+
+129. Any recursive view must be defined as the union of two subqueries: a _______ query that is nonrecursive and a __________ query.
+a) Base, recursive
+b) Recursive, Base
+c) Base, Redundant
+d) View, Base
+
+Answer: a
+Explanation:First compute the base query and add all the resultant tuples to the recursively defined view relation.
+
+130. Ranking of queries is done by which of the following ?
+a) Group by
+b) Order by
+c) Having
+d) Both a and b
+
+Answer: b
+Explanation:Order by clause arranges the values in ascending or descending order where default is ascending order .
+
+131. In rank() function if one value is shared by two tuples then
+a) The rank order continues as counting numbers
+b) The rank order continues by leaving one rank in the middle
+c) The user specifies the order
+d) The order does not change
+
+Answer: b
+Explanation:Example . rank() over (order by (GPA) desc).
+
+132. The __________ function that does not create gaps in the ordering.
+a) Intense_rank()
+b) Continue_rank()
+c) Default_rank()
+d) Dense_rank()
+
+Answer: d
+Explanation:For dense_rank() the tuples with the second highest value all get rank 2, and tuples with the third highest value get rank 3, and so on .
+
+133. Select ID, GPA from student grades order by GPA ____________; Inorder to give only 10 rank on the whole we should use
+a) Limit 10
+b) Upto 10
+c) Only 10
+d) Max 10
+
+Answer: a
+Explanation:However, the limit clause does not support partitioning, so we cannot get the top n within each partition without performing ranking; further, if more than one student gets the same GPA, it is possible that one is included in the top 10, while another is excluded.
+
+134. If there are n tuples in the partition and the rank of the tuple is r , then its ________ is defined as (r -1)/(n-1) .
+a) Ntil()
+b) Cum_rank
+c) Percent_rank
+d) rank()
+
+Answer: c
+Explanation:Percent rank of a tuple gives the rank of the tuple as a fraction.
+
+135. Inorder to simplify the null value confusion in the rank function we can specify
+a) Not Null
+b) Nulls last
+c) Nulls first
+d) Either b or c
+
+Answer: d
+Explanation:select ID, rank () over (order by GPA desc nulls last) as s rank from student grades;.
+
+136. Suppose we are given a view tot credits (year, num credits) giving the total number of credits taken by students in each year.The query that computes averages over the 3 preceding tuples in the specified sort order is
+a) Select year, avg(num credits)
+	over (order by year rows 3 preceding)
+	as avg total credits
+	from tot credits;
+b) Select year, avg(num credits)
+	over (order by year rows 3 unbounded preceding)
+	as avg total credits
+	from tot credits;
+c) Both a and b
+d) Either a or b
+
+Answer: a
+Explanation:Suppose that instead of going back a fixed number of tuples, we want the window to consist of all prior years we use rows unbounded preceding.
+
+137. The functions which construct histograms and use buckets for ranking is
+a) Rank()
+b) Newtil()
+c) Ntil()
+d) None of the mentioned
+
+Answer: c
+Explanation:For each tuple, ntile(n) then gives the number of the bucket in which it is placed, with bucket numbers starting with 1.
+
+138. The command ________________ such tables are available only within the transaction executing the query, and are dropped when the transaction finishes.
+a) Create table
+b) Create temporary table
+c) Create view
+d) Create label view
+
+Answer: b
+Explanation:None.
+
+139. OLAP stands for
+a) Online analytical processing
+b) Online analysis processing
+c) Online transaction processing
+d) Online aggregate processing
+
+Answer: a
+Explanation:OLAP is the manipulation of information to support decision making .
+
+140. Data that can be modeled as dimension attributes and measure attributes are called _______ data.
+a) Multidimensional
+b) Singledimensional
+c) Measured
+d) Dimensional
+
+Answer: a
+Explanation:Given a relation used for data analysis, we can identify some of its attributes as measure attributes, since they measure some value, and can be aggregated upon.Dimension attribute define the dimensions on which measure attributes, and summaries of measure attributes, are viewed.
+
+141. The generalization of cross-tab which is represented visually is ____________ which is also called as data cube.
+a) Two dimensional cube
+b) Multidimensional cube
+c) N-dimensional cube
+d) Cuboid
+
+Answer: a
+Explanation:Each cell in the cube is identified for the values for the three dimensional attributes.
+
+142. The process of viewing the cross-tab (Single dimensional) with a fixed value of one attribute is
+a) Slicing
+b) Dicing
+c) Pivoting
+d) Both a and b
+
+Answer: d
+Explanation:For eg., The item name and colour is viewed for a fixed size.
+
+143. The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________.
+a) Rollup
+b) Drill down
+c) Dicing
+d) Pivoting
+
+Answer: a
+Explanation:The opposite operation—that of moving fromcoarser-granularity data to finer-granularity data—is called a drill down.
+
+144. In SQL the cross-tabs are created using
+a) Slice
+b) Dice
+c) Pivot
+d) All of the mentioned
+
+Answer: a
+Explanation:pivot (sum(quantity) for color in (’dark’,’pastel’,’white’)) .
+
+145. { (item name, color, clothes size), (item name, color), (item name, clothes size), (color, clothes size), (item name), (color), (clothes size), () }
+This can be achieved by using which of the following ?
+a) group by rollup
+b) group by cubic
+c) group by
+d) None of the mentioned
+
+Answer: d
+Explanation:’Group by cube’ is used .
+
+146. What do data warehouses support?
+a) OLAP
+b) OLTP
+c) OLAP and OLTP
+d) Operational databases
+
+Answer: a
+Explanation:None .
+
+147. Select item name, color, clothes size, sum(quantity) from sales group by rollup(item name, color, clothes size); How many grouping is possible in this rollup?
+a) 8
+b) 4
+c) 2
+d) 1
+
+Answer: b
+Explanation:{ (item name, color, clothes size), (item name, color), (item name), () } .
+
+148. Which one of the following is the right syntax for DECODE ?
+a) DECODE (search, expression, result [, search, result]… [, default])
+b) DECODE (expression, result [, search, result]… [, default], search)
+c) DECODE (search, result [, search, result]… [, default], expression)
+d) DECODE (expression, search, result [, search, result]… [, default])
+
+Answer: d
+Explanation:None .
+
+149. An ________ is a set of entities of the same type that share the same properties, or attributes .
+a) Entity set
+b) Attribute set
+c) Relation set
+d) Entity model
+
+Answer: a
+Explanation: An entity is a “thing” or “object” in the real world that is distinguishable from all other objects.
+
+150. Entity is a
+a) Object of relation
+b) Present working model
+c) Thing in real world
+d) Model of relation
+
+Answer: c
+Explanation:For example, each person in a university is an entity.
+
+
+1. Which of the following is not a built in aggregate function in SQL?
+a) avg
+b) max
+c) total
+d) count
+
+
+Answer: c
+Explanation: SQL does not include total as a built in aggregate function. The avg is used to find average, max is used to find the maximum and the count is used to count the number of values.
+2. Observe the given SQL query and choose the correct option.
+	SELECT branch_name, COUNT (DISTINCT customer_name) 
+	FROM depositor, account 
+	WHERE depositor.account_number = account.account_number 
+	GROUP BY branch_id
+a) The query is syntactically correct but gives the wrong answer
+b) The query is syntactically wrong
+c) The query is syntactically correct and gives the correct answer
+d) The query contains one or more wrongly named clauses.
+
+
+Answer: b
+Explanation: The query is syntactically wrong. The attribute in the group by clause must be one of the attributes specified in the select clause.
+
+3. State true or false: SQL does not permit distinct with count(*)
+a) True
+b) False
+
+
+Answer: a
+Explanation: SQL does not permit distinct with count(*) but the use of distinct is allowed with max and min.
+
+4. We apply the aggregate function to a group of sets of tuples using the _______ clause.
+a) group by
+b) group
+c) group set
+d) group attribute
+
+
+Answer: a
+Explanation: We apply the aggregate function to a group of sets of tuples using the group by clause. The group by clause must always be used whenever we are willing to apply the aggregate function to a group of sets of tuples.
+5. Choose the correct option regarding the query
+
+SELECT branch_name, COUNT (DISTINCT customer_name) 
+FROM depositor, account 
+WHERE depositor.account_number = account.account_number 
+       GROUP BY branch_id
+       HAVING avg(balance) = 10000;
+a) The having clause checks whether the query result is true or not
+b) The having clause does not check for any condition
+c) The having clause allows only those tuples that have average balance 10000
+d) None of the mentioned
+
+
+Answer: c
+Explanation: The having clause is used to check for conditions that need to be set on aggregate functions.
+6. The _____ aggregation operation adds up all the values of the attribute
+a) add
+b) avg
+c) max
+d) sum
+
+
+Answer: d
+Explanation: The sum aggregation operation adds up all the values of the specified attribute. There does not exist any aggregation such as add.
+7. State true or false: Any attribute which is present in the having clause without being aggregated must not be present in the group by clause.
+a) True
+b) False
+
+
+Answer: b
+Explanation: Any attribute which is present in the having clause without being aggregated must be present in the group by clause. Otherwise, the query is considered to be erroneous.
+8. State true or false: We can rename the resulting attribute after the aggregation function has been applied
+a) True
+b) False
+
+
+Answer: a
+Explanation: Yes, we can rename the resulting attribute after the aggregation function has been applied by using a specific keyword.
+9. Which keyword is used to rename the resulting attribute after the application of the aggregation function?
+a) rename
+b) as
+c) replace
+d) to
+
+
+Answer: b
+Explanation: The “as” keyword is used to rename the resulting attribute after the aggregation function has been applied. Just like any other renaming operation, the as keyword simplifies the name of the relation.
+10. What values does the count(*) function ignore?
+a) Repetitive values
+b) Null values
+c) Characters
+d) Integers
+
+
+Answer: b
+Explanation: The count(*) aggregation function ignores null values while calculating the number of values in a particular attribute.

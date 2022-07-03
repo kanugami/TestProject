@@ -1,0 +1,798 @@
+1) Which of the following is not an example of a Looping statement?
+
+a) For
+b) Do-while
+c) While
+d) Switch
+
+
+Answer: d) Switch
+2) Which loop is faster in C Language, for, while, or Do While?
+
+a) for
+b) while
+c) do-while
+d) All work at the same speed
+
+
+Answer: d) All work at the same speed
+3) Loops in C Language are implemented using which block?
+
+a) While Block
+b) For Block
+c) Do While Block
+d) All the above
+
+
+Answer: d) All the above
+4) If block always needs to be associated with an else block?
+
+a) True
+b) False
+
+
+Answer: b) False
+5) To perform a set of instructions repeatedly which of the following can be used?
+
+a) For
+b) While
+c) If-Else-If
+d) Both a & b
+
+
+Answer: d) Both a & b
+6) Which among the following is an unconditional control structure?
+
+a) Do-while
+b) If-else
+c) Goto
+d) For
+
+
+Answer: c) Goto
+7) This Loop tests the condition after having executed the Statements within the Loop.
+
+a) While
+b) Do-While
+c) For Loop
+d) If-Else-If
+
+
+Answer: b) Do-While
+8) Choose a right C Statement.
+
+a) Loops or Repetition block executes a group of statements repeatedly.
+b) Loop is usually executed as long as a condition is met.
+c) Loops usually take advantage of Loop Counter
+d) All the above
+
+
+Answer: d) All the above
+9) The __ statement causes the loop to be terminated.
+
+a) Exit
+b) Break
+c) Default
+d) Continue
+
+
+Answer: b) Break
+10) Choose a correct C Statement.
+
+a) 	a++ is (a=a+1) POST INCREMENT Operator
+b) 	a-- is (a=a-1) POST DECREMENT Operator
+	--a is (a=a-1) PRE DECREMENT Operator
+c) 	++a is (a=a+1) PRE INCREMENT Operator
+d) 	All the above.
+
+
+Answer: d) All the above
+11) What is the work of break keyword?
+
+a) Halt execution of the program
+b) Restart execution of the program
+c) Exit from loop or switch statement
+d) None of the above
+
+
+Answer: c) Exit from loop or switch statement
+12) What is the way to suddenly come out of or quit any Loop in C Language?
+
+a) continue; statement
+b) break; statement
+c) leave; statement
+d) quit; statement
+
+
+Answer: b) break; statement
+
+1) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a = 2;
+	  a += a += a += 3;
+	  printf("%d",a);
+	  return 0;
+	}
+a) 9
+b) 11
+c) 30
+d) 20
+
+
+Answer:d) 20
+Consider:Y
+Explanation: a+=a+=a+=3; it can written as a+=a+=a=a+3; a=2; Or, a+=a+=5; a=5; Or, a+=a=5+5; a=5; Or, a+=10; a=10; Or, a=a+10; a=10; Or, a=20. So, finally a=20.
+2) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  float a, b;
+	  int c;
+	  a = 5;
+	  b = 2;
+	  c = a/b;
+	  printf("%d",c);
+	  return 0;
+	}
+a) 2
+b) 2.000000
+c) 3
+d) 2.500000
+
+
+Answer:a) 2
+Consider:Y
+3) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int num = 10;
+	  num /= num /= 2;
+	  printf("%d",num);
+	  return 0;
+	}
+a) 2.5
+b) 2
+c) 1
+d) 0
+
+
+Answer:c) 1
+Consider:Y
+Explanation: num/=num/=2; num=10; Or, num/=num=num/2; num=10; Or, num/=5; num=5; Or, num=num/5; num=5; Or, num=5/5=1. Finally num=1.
+4) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a;
+	  a=20;
+	  a*=30+5;
+	  printf("%d",a);
+	  return 0;
+	}
+a) 600
+b) 605
+c) 700
+d) 20
+
+
+Answer:c) 700
+Consider:Y
+Explanation: a*=30+5; it can be written as a*=35; Or, a=a*35=20*35=700. Finally a=700.
+5) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  char x, y, z;
+	  x = 'A';
+	  y = 'B';
+	  z = x + y;
+	  printf("%d", z);
+	  return 0;
+	}
+a) Garbage Value
+b) -125
+c) 131
+d) Compile-time error
+
+
+Answer:b) -125
+Consider:Y
+Explanation: Value of z = 65 (for A) + 66 (for B) = 131
+
+	The value 131 is in char. Char range is from -128 to 127. 131 is out of range. So, from circle representation of char value will be -125.
+6) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a=5;
+	  a*=a;
+	  printf("%d",a);
+	  return 0;
+	}
+a) 10
+b) 25
+c) 5
+d) 0
+
+
+Answer:b) 25
+Consider:Y
+Explanation: a=a*a=5*5 so a=25
+7) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  printf("%d, %d, %d, %d",
+	  20/3, -20/3, 20/-3, -20/-3);
+	  return 0;
+	}
+a) -6, 6, -6, 6
+b) -6, -6, 6, -6
+c) 6, -6, -6, 6
+d) 6, 6, 6, -6
+
+
+Answer:c) 6, -6, -6, 6
+Consider:Y
+Explanation: In the division operator, If exactly any one of the operand is negative then the result is negative. If both operators are positive/negative than the result is positive.
+8) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  float a, c;
+	  int b;
+	  a = 5;
+	  b = 2;
+	  c = a % b;
+	  printf("%f", c);
+	  return 0;
+	}
+a) Error
+b) 2.500000
+c) 2
+d) 2.000000
+
+
+Answer:a) Error
+Consider:Y
+Explanation: Modulus operator (%) does not operate on floating point.
+9) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a=5;
+	  a += a+a;
+	  printf("%d",a);
+	  return 0;
+	}
+a) 5
+b) 15
+c) 25
+d) 10
+
+
+Answer:b) 15
+Consider:Y
+Explanation: a += a+a; it can be written as a += 10; Or, a = a+10 = 5+10 = 15. Finally a=15.
+10) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int x, y, z;
+	  z = x+y;
+	  printf("%d", z);
+	  return 0;
+	}
+a) 32765
+b) 0
+c) Garbage Value
+d) 1
+
+
+Answer:b) 0
+Consider:Y
+Explanation: Local variables (with the automatic storage duration) are not initialized implicitly if they do not have the static storage duration. The actual output will be 0. 
+11) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a=2;
+	  a+=3;
+	  printf("%d",a);
+	  return 0;
+	}
+a) 2
+b) 0
+c) 5
+d) 3
+
+
+Answer:c) 5
+Consider:Y
+Explanation: 	a+=3 is a=a+3 which gives 2+3=5.
+12) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  printf("%d, %d, %d, %d",
+	  20%3, -20%3, 20%-3, -20%-3);
+	  return 0;
+	}
+a) 2, 2, -2, -2
+b) 2, 2, 2, -2
+c) 2, -2, 2, -2
+d) 2, -2, 2, 2
+
+
+Answer:c) 2, -2, 2, -2
+Explanation: For % operator, the sign of the result is always the same as the sign of the numerator.
+Consider:Y
+13) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  float a, b, c;
+	  a = 5;
+	  b = 2;
+	  c = a/b;
+	  printf("%f",c);
+	  return 0;
+	}
+a) Garbage Value
+b) 1.500000
+c) 2.500000
+d) 2.000000
+
+
+Answer:c) 2.500000
+Consider:Y
+14) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a, b;
+	  float c;
+	  a = 5;
+	  b = 2;
+	  c = a/b;
+	  printf("%f",c);
+	  return 0;
+	}
+a) 2.500000
+b) Garbage Value
+c) 1.500000
+d) 2.000000
+
+
+Answer:d) 2.000000
+Consider:Y
+15) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  int a;
+	  printf("%d",a=9);
+	  return 0;
+	}
+a) Compile-time error
+b) 1
+c) 0
+d) 9
+
+
+Answer:d) 9
+Consider:Y
+16) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main ()
+	{
+	  int x = 9;
+	  printf("%d",- -x);
+	  return 0;
+	}
+a) None of these
+b) Compile-time error
+c) -9
+d) 9
+
+
+Answer:d) 9
+Consider:Y
+17) Find the output of the given C program.
+
+	#include<stdio.h>
+	int main()
+	{
+	  printf("%f", 5.0 % 2.0);
+	  return 0;
+	}
+a) 2.500000
+b) 2
+c) Error
+d) 2.000000
+
+
+Answer: c) Error
+
+Consider:Y
+2) Loops in C Language are implemented using.?
+A) While Block
+B) For Block
+C) Do While Block
+D) All the above
+Answer: D
+3) Which loop is faster in C Language, for, while or Do While.?
+A) for
+B) while
+C) do while
+D) All work at same speed
+Answer: D
+4) Choose correct C while loop syntax.
+A) 
+	while(condition)
+	{
+		//statements
+	}
+B) 
+	{
+		//statements
+	}while(condition)
+C) 
+	while(condition);
+	{
+		//statements
+	}
+D) 
+	while()
+	{
+		if(condition)
+		{
+			//statements
+		}
+	}
+Answer: A
+5) Choose a correct C for loop syntax.
+A) 
+	for(initalization; condition; incrementoperation)
+	{
+		//statements
+	}
+B) 
+	for(declaration; condition; incrementoperation)
+	{
+		//statements
+	}
+C) 
+	for(declaration; incrementoperation; condition)
+	{
+		//statements
+	}
+D) 
+	for(initalization; condition; incrementoperation;)
+	{
+		//statements
+	}
+Answer: A
+Explanation: 
+	increment or decrement operation at third place.
+
+6) Choose a correct C do while syntax.
+A) 
+	dowhile(condition)
+	{
+		//statements
+	}
+B) 
+	do while(condition)
+	{
+		//statements
+	}
+C) 
+	do
+	{
+		//statements
+
+	}while(condition)
+D) 
+	do
+	{
+		//statements
+
+	}while(condition);
+Answer: D
+Explanation: 
+Semicolon after while(condition) is a must.
+
+7) What is the output of C Program.?
+	int main()
+	{
+		while(true)    
+		{
+			printf("RABBIT");
+			break;
+		}
+		
+		return 0;
+	}
+A) RABBIT
+B) RABBIT is printed unlimited number of times.
+C) No output
+D) Compiler error.
+Answer: D
+Explanation: 
+while(TRUE) or while(true) does not work. true is not a keyword.
+
+Consider:Y
+
+
+ 
+8) What is the output of C Program.?
+	int main()
+	{
+		int a=5;
+		
+		while(a==5)    
+		{
+			printf("RABBIT");
+			break;
+		}
+
+		return 0;
+	}
+A) RABBIT is printed unlimited number of times
+B) RABBIT
+C) Compiler error
+D) None of the above.
+Answer: B
+Explanation: 
+If there is no BREAK statement, while loop runs continuously util the computer hangs. BREAK causes the loop to break once and the statement below the while if any will be executed.
+Consider:Y
+9) What is the output of C Program.?
+	int main()
+	{
+		int a=5;
+		
+		while(a=123)    
+		{
+			printf("RABBIT\n");
+			break;
+		}
+		printf("GREEN");
+		
+		return 0;
+	}
+A) GREEN
+B) RABBIT
+	GREEN
+C) RABBIT is printed unlimited number of times.
+D) Compiler error.
+Answer: B
+Explanation: 
+while(a=123)  = while(123) = while(Non Zero Number). So while is executed. BREAK breaks the loop immediately. Without break statement, while loop runs infinite number of times.
+Consider:Y
+10) What is the output of C Program.?
+	int main()
+	{
+		int a=5;
+		
+		while(a >= 3);
+		{
+			printf("RABBIT\n");
+			break;
+		}
+		printf("GREEN");
+		
+		return 0;
+	}
+A) GREEN
+B) RABBIT
+	GREEN
+C) RABBIT is printed infinite times
+D) None of the above
+Answer: D
+Explanation: 
+Notice a semicon(;) after while condition. It makes the printf and break statement blocks isolate.
+
+	while(a >= 3)
+	{
+		;//infinite loop
+	}
+	{
+		printf("RABBIT\n");
+		break;
+	}
+Consider:Y
+11) What is the output of C Program.?
+	int main()
+	{
+		int a=25;
+		
+		while(a <= 27)
+		{
+			printf("%d ", a);
+			a++;
+		}
+
+		return 0;
+	}
+A) 25 25 25
+B) 25 26 27
+C) 27 27 27
+D) Compiler error
+Answer: B
+Explanation: 
+	a++ is equivalent to a=a+1;
+	a is incremented each time.
+Consider:Y
+12) What is the output of C Program.?
+	int main()
+	{
+		int a=32;
+		
+		do
+		{
+			printf("%d ", a);
+			a++;
+		}while(a <= 30);
+
+		return 0;
+	}
+A) 32
+B) 33
+C) 30
+D) No Output
+Answer: A
+Explanation: 
+	do { } block is executed even before checking while(condition) at least once. This prints 32. To loop for the second time, while (32 <= 30) fails. So, loop is quit.
+Consider:Y
+13) What is the output of C Program.?
+	int main()
+	{
+		int a=32;
+		
+		do
+		{
+			printf("%d ", a);
+			a++;
+			if(a > 35)
+				break;
+		}while(1);
+
+		return 0;
+	}
+A) No Output
+B) 32 33 34
+C) 32 33 34 35
+D) Compiler error
+Answer: C
+Explanation: 
+	while(1) is infinite loop. So we kept if(condition) to break the loop. a++ is equivalent to a=a+1;
+Consider:Y
+15) Choose correct Syntax for C Arithmetic Compound Assignment Operators.
+A) a+=b is (a= a+ b)
+	a-=b is (a= a-b)
+B) a*=b is (a=a*b)
+	a/=b is (a = a/b)
+C) a%=b is (a=a%b)
+D) All the above.
+Answer: D
+16) What is the output of C Program.?
+	int main()
+	{
+		int k, j;
+		
+		for(k=1, j=10; k <= 5; k++)
+		{
+			printf("%d ", (k+j));
+		}
+
+		return 0;
+	}
+A) compiler error
+B) 10 10 10 10 10
+C) 11 12 13 14 15
+D) None of the above
+Answer: C
+Explanation: 
+	You can initialize any number of variables inside for loop.
+Consider:Y
+17) What is the output of C Program.?
+	int main()
+	{
+		int k;
+		
+		for(k=1; k <= 5; k++);
+		{
+			printf("%d ", k);
+		}
+
+		return 0;
+	}
+A) 1 2 3 4 5
+B) 1 2 3 4
+C) 6
+D) 5
+Answer: C
+Explanation: 
+	Semicolon at the end of for(); isolates the below print() block. After for loop is over, k value is 6.
+	for(k=1; k <= 5; k++)
+	{
+		;
+	}
+	{
+		printf("%d ", k);
+	}
+Consider:Y
+18) What is the output of C Program.?
+	int main()
+	{
+		int k;
+		
+		for(;;)
+		{
+			printf("TESTING\n");
+			break;
+		}
+
+		return 0;
+	}
+A) No Output
+B) TESTING
+C) Compiler error
+D) None of the above
+Answer: B
+Explanation: 
+	for(;;) loop need not contain any initialization, condition and incre/decrement sections. All are optional. BREAK breaks the FOR Loop.
+Consider:Y
+19) What is the output of C Program.?
+	int main()
+	{
+		int k;
+		
+		for(printf("FLOWER "); printf("YELLOW "); printf("FRUITS "))
+		{
+			break;
+		}
+
+		return 0;
+	}
+A) Compiler error
+B) FLOWER FRUITS
+C) FLOWER YELLOW
+D) FLOWER YELLOW FRUITS
+Answer: C
+Explanation: 
+	for(anything; anything; anything) is Ok. printf("YELLOW") prints YELLOW and returns 1 as result. So for loop runs forever. Actually break is saving us from quitting the for loop. Only after checking condition and executing the loop statements, third section is executed. break causes the loop to quit without incre/decrement section.
+Consider:Y
+20) What is the way to suddenly come out of or Quit any Loop in C Language.?
+A) continue; statement
+B) break; statement
+C) leave; statement
+D) quit; statement
+Answer: B
+Consider:Y
+Explanation: 
+	eg.
+	while(condition)
+	{
+	break;
+	}

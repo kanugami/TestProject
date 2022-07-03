@@ -1,0 +1,866 @@
+1. A Database Management System (DBMS) is
+A. Collection of interrelated data
+B. Collection of programs to access data
+C. Collection of data describing one particular enterprise
+D. All of the above
+
+Answer: A
+2. Which of the following is not a level of data abstraction?
+A. Physical Level
+B. Critical Level
+C. Logical Level
+D. View Level
+Answer:B
+
+3. Disadvantages of File systems to store data is:
+A. Data redundancy and inconsistency
+B. Difficulty in accessing data
+C. Data isolation
+D. All of the above
+Answer:D
+
+Consider:Y
+
+4. In an Entity-Relationship Diagram Rectangles represents
+A. Entity sets
+B. Attributes
+C. Database
+D. Tables
+Answer:A
+
+Consider:Y
+
+
+5. Which of the following is not a Storage Manager Component?
+A. Transaction Manager
+B. Logical Manager
+C. Buffer Manager
+D. File Manager
+Answer:B
+
+Consider:Y
+
+
+6. Data Manipulation Language enables users to
+A. Retrieval of information stored in database
+B. Insertion of new information into the database
+C. Deletion of information from the database
+D. All of the above
+Answer:D
+
+Consider:Y
+
+
+7. Which of the following is not an Schema?
+A. Database Schema
+B. Physical Schema
+C. Critical Schema
+D. Logical Schema
+Answer:C
+
+8. Which of the following is Database Language?
+A. Data Definition Language
+B. Data Manipulation Language
+C. Query Language
+D. All of the above
+Answer:D
+
+Consider:Y
+
+9. Which of the following in not a function of DBA?
+A. Network Maintenance
+B. Routine Maintenance
+C. Schema Definition
+D. Authorization for data access
+Answer:A
+
+10. Which of the following is a Data Model?
+A. Entity-Relationship model
+B. Relational data model
+C. Object-Based data model
+D. All of the above
+Answer:D
+
+Consider:Y
+
+
+11. Which of the following represents a relationship among a set of values.
+A. A Row
+B. A Table
+C. A Field
+D. A Column
+Answer:A
+
+Consider:Y
+
+
+12. Column header is refer as
+A. Table
+B. Relation
+C. Attributes
+D. Domain
+Answer:C
+
+Consider:Y
+
+
+13. A Relation is a
+A. Subset of a Cartesian product of a list of attributes
+B. Subset of a Cartesian product of a list of domains
+C. Subset of a Cartesian product of a list of tuple
+D. Subset of a Cartesian product of a list of relations
+Answer:B
+
+14. In mathematical term Table is referred as
+A. Relation
+B. Attribute
+C. Tuple
+D. Domain
+Answer:A
+
+15. In mathematical term Row is referred as
+A. Relation
+B. Attribute
+C. Tuple
+D. Domain
+Answer:C
+
+16. _______ allow us to identify uniquely a tuple in the relation.
+A. Super key / Primary Key
+B. Domain
+C. Attribute
+D. Schema
+Answer:A
+
+Consider:Y
+
+
+17. Minimal Super keys are called
+A. Schema keys
+B. Candidate keys
+C. Domain keys
+D. Attribute keys
+Answer:B
+
+18. Which of the following is not Modification of the Database
+A. Deletion
+B. Insertion
+C. Sorting
+D. Updating
+Answer:C
+
+Consider:Y
+
+
+19. Which of the following is Relation-algebra Operation
+A. Select
+B. Union
+C. Rename
+D. All of the above
+Answer:D
+
+20. Which of the following in not Outer join?
+A. Left outer join
+B. Right outer join
+C. Full outer join
+D. All of the above
+Answer:D
+
+Consider:Y
+
+
+21. Who proposed the relational model?
+A. Bill Gates
+B. E.F. Codd
+C. Herman Hollerith
+D. Charles Babbage
+
+Answer: B
+
+22. Set of premitted values of each attribute is called
+A. Domain
+B. Tuple
+C. Relation
+D. Schema
+Answer: A
+
+24. Logical design of database is called
+A. Database Instance
+B. Database Snapshot
+C. Database Schema
+D. All of the above
+Answer: C
+
+Consider:Y
+
+
+25. Snapshot of the dta in the database at a given instant of time is called
+A. Database Schema
+B. Database Instance
+C. Database Snapshot
+D. All of the above
+Answer: B
+
+Consider:Y
+
+
+26. Which of the following is not Unary operation?
+A. Select
+B. Project
+C. Rename
+D. Union
+Answer: D
+
+27. Which of the following is not binary operation?
+A. Union
+B. Project
+C. Set Difference
+D. Cartesian Product
+Answer: B
+
+28. Which of the following is correct regarding Aggregate functions?
+A. it takes a list of values and return a single values as result
+B. it takes a list of values and return a list of values as result
+C. it takes a single value and returns a list of values as result
+D. it takes a single value and returns a single value as result
+Answer: A
+
+Consider:Y
+
+
+29. The Primary key must be
+A. Non Null
+B. Unique
+C. Option A or B
+D. Option A and B
+Answer: D
+
+Consider:Y
+
+
+30. A command to remove a relation from an SQL database
+A. Delete table <table name>
+B. Drop table <table name>
+C. Erase table <table name>
+D. Alter table <table name>
+Answer: B
+
+Consider:Y
+
+
+31. which of the following is not an Aggregate function?
+A. Min
+B. Max
+C. Select
+D. Avg
+Answer: C
+
+
+32. The attribute that can be divided into other attributes is called
+A. Simple Attribute
+B. Composite Attribute
+C. Multi-valued Attribute
+D. Derived Attribute
+Answer: B
+
+
+33. In an Entity-Relationship Diagram “Ellipses” represents
+A. Attributes
+B. Weak entity set
+C. Relationship sets
+D. Multi-valued attributes
+Answer: A
+
+
+Consider:Y
+
+
+34. In an Entity-Relationship Diagram “Diamonds” represents
+A. Attributes
+B. Multi-valued attributes
+C. Weak entity set
+D. Relationship sets
+Answer: D
+
+Consider:Y
+
+35. What is ACID properties of Transactions?
+A. Atomicity, Consistency, Isolation, Database
+B. Atomicity, Consistency, Isolation, Durability
+C. Atomicity, Consistency, Inconsistent, Durability
+D. Automatically, Concurrency, Isolation, Durability
+Answer: B
+
+Consider:Y
+
+36. If every non-key attribute is functionally dependent on the primary key, the relation will be in
+A. First Normal Form
+B. Second Normal Form
+C. Third Normal Form
+D. Fourth Formal Form
+Answer: C
+
+
+37. Database locking concept is used to solve the problem of
+A. Lost Update
+B. Uncommitted Dependency
+C. Inconsistent Data
+D. All of the above
+Answer: D
+
+Consider:Y
+
+38. UML is stands for
+A. Universal Modeling Language
+B. Unified Modeling Language
+C. United Modeling Language
+D. Uni Modeling Language
+Answer: B
+
+
+39. Data Manipulation Language (DML) is not to
+A. Create information table in the Database
+B. Insertion of new information into the Database
+C. Deletion of information in the Database
+D. Modification of information in the Database
+Answer: A
+
+Consider:Y
+
+40. Which of the following in true regarding Referential Integrity?
+A. Every primary-key value must match a primary-key value in an associated table
+B. Every primary-key value must match a foreign-key value in an associated table
+C. Every foreign-key value must match a primary-key value in an associated table
+D. Every foreign-key value must match a foreign-key value in an associated table
+Answer: C
+
+Consider:Y
+
+41. Which of the following option is use to retrieval of data?
+a. Stack
+b. Data Structure
+c. Linked list
+d. Query
+Answer: d
+
+Consider:Y
+
+42. ODBC stands for ______
+a. Offline database connection
+b. Oriented database connection
+c. Open database connection
+d. None of above
+Answer: c
+
+
+43. Which algebra is widely used in DBMS?
+a. Relational algebra
+b. Arithmetic algebra
+c. Both
+d. None
+Answer: a
+
+
+44. Which of the following is an unary operation?
+a. Selection operation
+b. Generalized selection
+c. Primitive operation
+d. Projection operation
+Answer: b
+
+
+45. Which SQL Query is use to remove a table and all its data from the database?
+a. Create Table
+b. Alter Table
+c. Drop Table
+d. Delete Table
+Answer: c
+
+Consider:Y
+46. In precedence of set operators the expression is evaluated from:
+a. Left to Left
+b. Left to Right
+c. Right to Right
+d. Right to Left
+Answer: b
+
+
+47. In DBMS FD stands for _______
+a. Facilitate data
+b. Functional data
+c. Facilitate dependency
+d. Functional dependency
+Answer: d
+
+
+48. How many types of keys in Database Design?
+a. Candidate key
+b. Primary key
+c. Foreign key
+d. All of these
+Answer: d
+
+
+49. Which of the following is based on Multi Valued Dependency?
+a. First
+b. Second
+c. Third
+d. Fourth
+Answer: d
+
+
+50. Which of the following is the structure of the Database?
+a. Table
+b. Schema
+c. Relation
+d. None of these
+Answer: b
+Consider:Y
+
+51. The minimal set of super key is called
+A. Primary key
+B. Secondary key
+C. Candidate key
+D. Foreign key
+Answer: C
+
+
+52. A relation that has no partial dependencies is in which normal form
+A. First
+B. Second
+C. Third
+D. BCNF
+Answer: B
+
+
+53. A functional dependency between two or more non-key attributes is called
+A. Transitive dependency
+B. Partial transitive dependency
+C. Functional dependency
+D. Partial functional dependency
+Answer: A
+Consider:Y
+
+54. A logical description of some portion of database that is required by a user to perform task is called as
+A. System View
+B. User View
+C. Logical View
+D. Data View
+Answer: B
+
+
+55. ______________ is a classical approach to database design?
+A. Left – Right approach
+B. Right – Left approach
+C. Top – Down approach
+D. Bottom – Up approach
+Answer: C
+
+
+56. _____________ refers to the correctness and completeness of the data in a database?
+A. Data security
+B. Data integrity
+C. Data constraint
+D. Data independence
+Answer: B
+Consider:Y
+
+57. A table that displays data redundancies yields ____________ anomalies
+A. Insertion
+B. Deletion
+C. Update
+D. All of the above
+Answer: D
+
+
+58. A lock that allows concurrent transactions to access different rows of the same table is known as a
+A. Field-level lock
+B. Row-level lock
+C. Table-level lock
+D. Database-level lock
+Answer: A
+Consider:Y
+
+59. A type of query that is placed within a WHERE or HAVING clause of another query is called
+A. Super query
+B. Sub query
+C. Master query
+D. Multi-query
+Answer: B
+Consider:Y
+
+60. A transaction completes its execution is said to be
+A. Saved
+B. Loaded
+C. Rolled
+D. Committed
+Answer: D
+Consider:Y
+
+61. When converting one (1) to many (N) binary relationship into tables, the recommended solution is usually
+A.  One big table with all attributes from both entities included
+B.  Foreign key added on the Child (many side) referencing the parent
+C.  Foreign key added on the Parent (one side) referencing the child
+D.  Foreign key added on both sides (both tables)
+
+Answer: B
+Explanation: When converting one (1) to many (N) binary relationship into tables, the recommended solution is Foreign key added on the Child (many side) referencing the parent
+Consider:Y
+
+
+62. Which of the following is not correct?
+A.  Each entity must include some descriptive information
+B.  If an object only requires an identifier, it should be classified as an attribute
+C.  Each multivalued attribute should be classified as an entity even if it does not have any descriptive information
+D.  The procedure of identifying entities and attaching attributes always leads to a unique solution
+
+
+Answer: D
+Explanation: The procedure of identifying entities and attaching attributes always leads to a unique solution
+
+
+63. The property of transaction which ensures that either all operations of the transaction are reflected properly in the database or none, is called
+A.  Atomicity
+B.  Durability
+C.  Isolation
+D.  Consistency
+
+Answer: A
+Explanation: Atomicity is the property of transaction which ensures that either all operations of the transaction are reflected properly in the database or none
+Consider:Y
+
+64. Which of the following is correct?
+A.  Function dependencies are not associated with relations; they are based on the semantics of information that we are dealing with
+B. If a relation has no redundant information its attributes must not have any function dependencies
+C. Functional dependencies may be determined if we are given several instances of a relation
+D. The FDs that hold for attributes of a relation need not be satisfied at all times
+
+
+Answer: A
+Explanation: Function dependencies are not associated with relations; they are based on the semantics of information that we are dealing with.
+
+
+65. An entity type whose existence depends on another entity type is called a _____ entity.
+A. Strong
+B. Weak
+C. Codependent
+D. Variant
+
+
+Answer: B
+Explanation: Entity type whose existence depends on another entity type is called a weak entity
+ 
+
+
+66. A property or characteristic of an entity type that is of interest to the organization is called an
+A. Attribute
+B. Coexisting entity
+C. Relationship
+D. Cross-function
+
+Answer: A
+Explanation: A property or characteristic of an entity type that is of interest to the organization is called attribute
+
+
+67. A relationship between the instances of a single entity type is called a _____ relationship.
+A. Ternary
+B. Primary
+C. Binary
+D. Unary.
+
+Answer: D
+Explanation: A relationship between the instances of a single entity type is called a Unary relationship.
+ 
+
+
+68. A ________ attribute is an attribute that can be further subdivided to yield additional attributes.
+A. Composite
+B. Simple
+C. Single-valued
+D. Multi-valued
+
+
+Answer: A
+Explanation: Composite attribute is an attribute that can be further subdivided to yield additional attributes.
+
+
+
+69. In a super type/subtype hierarchy, each subtype has
+A. Only one super type
+B. Many super types
+C. At most two super types
+D. At least one subtype
+
+
+Answer: A
+Explanation: In a super type/subtype hierarchy, each subtype has only one super type
+
+
+
+70. The hierarchical database model uses the hierarchic sequence that always starts at
+A. The right side of the tree
+B. The left side of the tree
+C. The top of the tree
+D. The bottom of the tree
+
+
+Answer: B
+Explanation: The hierarchical database model uses the hierarchic sequence that always starts at the left side of the tree
+
+71.Which of the following is a component of the relational data model included to specify business rules to maintain the integrity of data when they are manipulated?
+A. Business rule constraint
+B. Data integrity
+C. Business integrity
+D. Data structure
+
+Answer: B
+Explanation: Data integrity is a component of the relational data model included to specify business rules to maintain the integrity of data when they are manipulated
+Consider:Y
+
+72.A null value is created or represented by
+A. A zero
+B. A space
+C. Pressing the ESC key
+D. Pressing the Enter key without making a prior entry of any kind.
+
+Answer: D
+Explanation: A null value is created or represented by Pressing the Enter key without making a prior entry of any kind
+
+
+73.A functional dependency between two or more non-key attributes is called
+A. Partial functional dependency
+B. Partial non-key dependency
+C. Transitive dependency
+D. Partial transitive dependency
+
+
+Answer: C
+Explanation: A functional dependency between two or more non-key attributes is called transitive dependency
+
+
+74.Which of the following is a classical approach to database design?
+A. Top-down approach
+B. Left-side approach
+C. Right-side approach
+D. Backwards approach
+
+
+Answer: A
+Explanation: top-down approach is a classical approach to database design
+
+
+75.In the context of a database table, the statement “A determines B” indicates that
+A. Knowing the value of attribute A you can not look up the value of attribute B
+B. You do not need to know the value of attribute A in order to look up the value of attribute B
+C. Knowing the value of attribute B you can look up the value of attribute A
+D. Knowing the value of attribute A you can look up the value of attribute B
+
+Answer: D
+Explanation: Knowing the value of attribute A you can look up the value of attribute B.
+Consider:Y
+
+76.Which of the following Relational Algebra operations require that both tables (or virtual tables) involved have the exact same attributes/data types?
+A. Join, Projection, Restriction
+B. Multiplication and Division
+C. Union, Intersection, Minus
+D. Minus, Multiplication, Intersection
+
+
+Answer: C
+Explanation: n relational algebra Union, Intersection, Minus operations require that both tables (or virtual tables) involved have the exact same attributes/data types.
+Consider:Y
+
+77.Which type of file is easiest to update?
+A. Sequential
+B. Hashed
+C. Indexed
+D. Clustered
+
+Answer: B
+Explanation: Hash file is easiest to update
+Consider:Y
+
+78.A method that speeds query processing by running a query at the same time against several partitions of a table using multi processors is called
+A. Multiple partition query
+B. Perpendicular query processing
+C. Parallel query processing
+D. Query optimization
+
+Answer: C
+Explanation: A method that speeds query processing by running a query at the same time against several partitions of a table using multi processors is called parallel query processing.
+Consider:Y
+
+79.The protocol that ensures conflict serializability is
+A. Time stamp ordering protocol
+B. Two phase locking protocol
+C. Concurrency protocol
+D. Tree protocol
+
+Answer: A
+Explanation: The protocol that ensures conflict serializability is time stamp ordering protocol.
+
+80.Indexes are created in most RDBMS’s to
+A. Provide a quicker way to store data
+B. Decrease the amount of disk space utilized
+C. Provide rapid, random and sequential access to base-table data
+D. Increase the cost of implementation
+
+Answer: C
+Explanation: Indexes are created in most RDBMS’s to Provide rapid, random and sequential access to base-table data
+Consider:Y
+
+
+81.What does the following SQL statement do?
+Select * From Customer Where Cust_Type = “Best”;
+A. Selects all the fields from the Customer table for each row with a customer labeled “best”
+B. Selects the “*” field from the Customer table for each row with a customer labeled “best”
+C. Selects fields with a “*” in them from the Customer table
+D. Selects all the fields from the Customer table for each row with a customer labeled “*”
+Answer: A
+Explanation: Select
+Consider:Y
+82.In an SQL statement, which of the following parts states the conditions for row selection?
+A. Select
+B. Which
+C. Order By
+D. Where.
+Answer: D
+Explanation: In an SQL statement where clause states the conditions for row selection
+
+83.Which of the following questions is answered by the SQL statement?
+Select Count (Product_Description) from Product_T;
+A. How many products are in the Product Table?
+B. How many different product descriptions are in the Product Table?
+C. How many characters are in the field name “Product_Description”?
+D. How many different columns named “Product Description” is there in table Product_T?
+
+Answer: B
+Explanation: How many different product descriptions are in the Product Table?
+
+84.All of the following are advantages of SQL-invoked routines EXCEPT
+A. Flexibility
+B. Efficiency
+C. Sharability
+D. Security
+
+Answer: D
+Explanation: Security
+
+85.A type of query that is placed within a WHERE or HAVING clause of another query is called
+A. Master query
+B. Sub query
+C. Super query
+D. Multi-query
+
+Answer: B
+Explanation: Sub-query that is placed within a WHERE or HAVING clause of another query
+
+86.Which of the following is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released?
+A. Record controller
+B. Exclusive lock
+C. Authorization rule
+D. Two phase lock
+
+Answer: D
+Explanation: Two-phase lock is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released
+
+87.Out of the following activities, which is the one that normally performed by DBMS, without the interference of the DBA?
+A. Integrity
+B. Retention
+C. Security
+D. Recovery.
+Answer: D
+Explanation: Recovery is the one that normally is performed by DBMS, without the interference of the DBA
+Consider:Y
+88.Horizontal Fragmentation is
+A. Divide the data up by logical groups of records
+B. Divide the data up by logical groups of attributes
+C. Divide the data up by logical groups of entities
+D. Divide the data up by logical groups of files
+
+Answer: A
+Explanation: Divide the data up by logical groups of records.
+Consider:Y
+89.An index record appears for every search key value in the file is
+A. Secondary index
+B. Dense index
+C. Sparse index
+D. Multi level index
+
+Answer: B
+Explanation: Dense Index record appears for every search key valued in the file.
+
+90.Which of the following type of index is automatically created when we do not specify?
+A. Bitmap
+B. Balanced Tree Index
+C. Binary Tree Index
+D. Hashed
+
+Answer: B
+Explanation: Balanced Tree Index is automatically created when we do not specify.
+
+91.A database management software (DBMS) includes
+A. Automated tools (CASE) used to design databases and application programs
+B. A software application that is used to define, create, maintain and provide controlled access to user databases
+C. Application programs that are used to provide information to users
+D. Database that contains occurrences of logically organised data or information
+
+Answer: b
+Explanation: A software application that is used to define, create, maintain and provide controlled access to user databases.
+Consider:Y
+92.Making a change to the conceptual schema of a database but not affecting the existing external schemas is an example of
+A. Physical data independence
+B. Concurrency Control
+C. Logical data independence
+D. Functional dependency
+
+Answer: c
+Explanation: Logical data independence refers to making a change to the conceptual schema of a database but not affecting the existing external schemas.
+
+93.If K is a foreign key in a relation R1, then
+A. Every tuple of R1 has a distinct value for K
+B. K cannot have a null value for tuples in R1
+C. K is a key for some other relation
+D. K is a Primary key for R1
+
+Answer: c
+Explanation: If k is a foreign key in a relation R1, then K is a key for some other relation.
+Consider:Y
+94.Which of the following concept is applicable with respect to 2NF?
+A. Full functional dependency
+B. Partial dependency
+C. Transitive dependency
+D. Non-transitive dependency
+
+Answer: a
+Explanation: Full functional dependency is applicable with respect to 2NF.
+
+95. State the unit of storage that can store one or more records in a hash file organization
+A. Buckets
+B. Disk pages
+C. Blocks
+D. Nodes
+
+Answer: a
+Explanation: Buckets are used to store one or more records in a hash file organization.
+
+96.Embedded SQL means
+A. Using the EMBED key word in a SQL statement
+B. Writing a SQL statement to retrieve data from more than one relation
+C. Writing SQL statements within codes written in a general programming language
+D. Specifying a condition and action to be taken in case the given condition is satisfied in a trigger
+Answer: c
+Explanation: Embedded SQL refers to writing SQL statements within codes written in a general programming language.
+
+97.Select the correct statement from the following on proper naming of schema constructs:
+A. Entity type name applies to all the entities belonging to that entity type and therefore a plural name is selected for entity type
+B. In the narrative description of the database requirements, verbs tend to indicate the names of relationship types
+C. The nouns arising from a database requirement description can be considered as names of attributes
+D. Additional nouns which are appearing in the narrative description of the database requirements represent the weak entity type names
+Answer: b
+Explanation: In the narrative description of the database requirements, verbs tend to indicate the names of relationship types.
+
+
+
+
+
