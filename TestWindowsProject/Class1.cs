@@ -9,7 +9,7 @@ namespace TestWindowsProject
     class Class1
     {
         /// <summary>
-        /// Testing
+        /// Testing 2nd commit
         /// </summary>
         public Class1()
         { }
